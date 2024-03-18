@@ -16,6 +16,10 @@ header {
     padding: 0 2rem;
     background-color: var(--bgDark);
 
+    border-bottom: 2px solid var(--verdeClaro); /* largura e estilo da linha */
+
+    
+
 }
 
 nav a {
@@ -23,6 +27,7 @@ nav a {
     margin: 0 2rem;
     color: var(--verdeClaro);
     text-decoration: none;
+    font-size: 1.3rem;
     
 
 }
