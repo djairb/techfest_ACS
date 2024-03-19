@@ -6,7 +6,7 @@ import Axios from "axios";
 
 
 
-function TelaPrincipal() {
+function TelaPrincipalCrud() {
 
   const userRecusado = {
 
@@ -142,7 +142,7 @@ function TelaPrincipal() {
   );
 }
 
-export default TelaPrincipal;
+export default TelaPrincipalCrud;
 
 
 

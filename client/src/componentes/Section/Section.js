@@ -2,6 +2,8 @@ import "./Section.css";
 
 import { register } from 'swiper/element/bundle'
 
+import { useState } from "react";
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,64 +15,76 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow } from 'swiper/modules';
 
 
+import CardSection from "../cardSection/cardSection";
 
-
-
-
-
-import nfs from "../../img/techfest_logo.png";
-
-
+import { palestrasCardList, oficinasCardList } from "../../componentes/dados";
 
 register();
 
-function Section() {
+function Section(props) {
 
+
+
+    let data;
+
+    { props.codEvento === "1" ? data = palestrasCardList : data = oficinasCardList }
 
     return (
 
         <section>
 
-            <Swiper            
+            <h1 className="titulo">{props.title}</h1>
+            <Swiper
 
-               slidesPerView={3}
+                slidesPerView={3}
+
                 style={{
 
                     "--swiper-pagination-color": "#72c000",
                     "--swiper-navigation-color": "#72c000",
 
                 }}
-                
+
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={3}
                 loop={true}
-                
+
                 coverflowEffect={
                     {
                         rotate: 0,
                         stretch: 0,
                         depth: 100,
                         modifier: 2.5,
+                        slideShadows: true,
 
                     }
                 }
-                autoplay = {{
-                    delay: 1500
+                autoplay={{
+                    delay: 2000
                 }}
                 modules={[EffectCoverflow]}
                 pagination={{ clickable: true }}
-                navigation             
+                navigation
+                className="swiperMaster"
+
 
             >
-                <SwiperSlide><img className="imgSlider" src={nfs} alt="Descrição da imagem" /></SwiperSlide>
-                <SwiperSlide><img className="imgSlider" src={nfs} alt="Descrição da imagem" /></SwiperSlide>
-                <SwiperSlide><img className="imgSlider" src={nfs} alt="Descrição da imagem" /></SwiperSlide>
-                <SwiperSlide><img className="imgSlider" src={nfs} alt="Descrição da imagem" /></SwiperSlide>
+                {data.map((item) => (
 
+                    <SwiperSlide key={item.id}>
+                        <CardSection
+
+                            imgSrc={item.imgSrc}
+                            title={item.title}
+                            pagina={item.pagina}
+                        />
+
+                    </SwiperSlide>
+                ))}
             </Swiper>
 
         </section>

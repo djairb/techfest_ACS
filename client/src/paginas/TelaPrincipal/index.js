@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../../componentes/Navbar/Navbar";
 import Section from "../../componentes/Section/Section";
 
+import './style.css';
+
 function TelaPrincipal() {
 
   return (
@@ -11,7 +13,20 @@ function TelaPrincipal() {
 
       <main>
 
-      <Section/>
+      <Section
+
+        title="Palestras"
+        codEvento= "1"        
+      
+      />
+
+      <Section
+          
+          title="Oficinas"
+          codEvento= "2"        
+        
+        />        
+  
 
 
       </main>

@@ -17,6 +17,7 @@ header {
     background-color: var(--bgDark);
 
     border-bottom: 2px solid var(--verdeClaro); /* largura e estilo da linha */
+    
 
     
 
@@ -98,6 +99,7 @@ header .nav-btn {
         color: var(--bgDark);
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 999;
 
 
     }

@@ -3,6 +3,13 @@ html,
 body {
   margin: 0;
   height: 100%;
+  padding: 0;
+  background-color: #121212;
+}
+
+main{
+
+  background-color: #121212;
 }
 
 

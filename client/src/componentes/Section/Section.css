@@ -1,13 +1,20 @@
-section{
+section {
     background-color: var(--bgDark);
     color: var(--fontWhite);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+
+    border-bottom: 1px solid var(--verdeClaro);
+    padding-bottom: 10px;
+    
+
 }
 
 
-.imgSlider{
+.imgSlider {
 
     width: 500px;
     height: 400px;
@@ -15,10 +22,39 @@ section{
     object-fit: cover;
 
 }
-.ajustar{
+
+.ajustar {
     display: grid;
     place-items: center;
 }
 
+.swiperMaster{
+    margin-top: 10px;
+    width: 60vw;
+    z-index: 1; 
+
+}
+
+.titulo{
+
+    font-size: 35px;
+    color: var(--verdeClaro);
+    border-bottom: 2px solid var(--verdeClaro);
+    padding-bottom: 10px;
 
 
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .swiperMaster{
+
+        width: 90vw;
+    
+    
+    
+    }
+
+
+
+}
