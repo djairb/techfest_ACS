@@ -5,8 +5,15 @@ import { useNavigate } from 'react-router-dom';
 import Axios from "axios";
 
 
+import { useContext } from "react";
+
+import { UserContext } from "../../context/UserContext";
+
+
 
 function TelaPrincipalCrud() {
+
+  const {user, toggleUser} = useContext(UserContext);
 
   const userRecusado = {
 
@@ -101,7 +108,7 @@ function TelaPrincipalCrud() {
     <div className='app-container'>
       <div className='register--container'>
 
-        <h1>Login</h1>
+        <h1>{user.id}</h1>
 
         <input
           type='text'

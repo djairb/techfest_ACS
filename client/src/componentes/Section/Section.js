@@ -2,7 +2,6 @@ import "./Section.css";
 
 import { register } from 'swiper/element/bundle'
 
-import { useState } from "react";
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -50,7 +49,7 @@ function Section(props) {
 
                 effect={'coverflow'}
                 grabCursor={true}
-                centeredSlides={3}
+                centeredSlides={2}
                 loop={true}
 
                 coverflowEffect={
@@ -70,6 +69,7 @@ function Section(props) {
                 pagination={{ clickable: true }}
                 navigation
                 className="swiperMaster"
+                
 
 
             >
@@ -80,14 +80,16 @@ function Section(props) {
 
                             imgSrc={item.imgSrc}
                             title={item.title}
-                            pagina={item.pagina}
+                            tipo={item.tipo}
+                            id={item.id}
                         />
 
                     </SwiperSlide>
                 ))}
             </Swiper>
-
+        <div className="degrade"></div>
         </section>
+        
 
 
     );

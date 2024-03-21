@@ -42,7 +42,7 @@
 
     color: #72c000;
 }
-.link-botao {
+.botaoEvento{
 
     margin: 10px 0 30px 0;
 
@@ -52,9 +52,10 @@
     color: white;
     padding: 12px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
-.link-botao:hover {
+.botaoEvento:hover {
 
     background-color: white;
     color: #467700;
@@ -71,6 +72,23 @@
     --bgDark: #121212;
     --bgDarkLess: #202123;
     --fontWhite: #EEEEEE;
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .card{
+
+
+        width: 200px;
+        height: 300px;
+
+
+    }
+
 
 
 }

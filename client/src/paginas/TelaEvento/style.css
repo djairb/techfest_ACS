@@ -1,0 +1,93 @@
+.containerEvento{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 1200px;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    border: 1px solid var(--verdeClaro);
+    border-radius: 5px;
+
+    
+
+
+}
+.containerEvento img {
+
+    max-width: 1200px;
+	width: 1200px;
+    height: 300px;
+    object-fit: cover;
+	margin: 0 auto;
+    border-radius: 0px 20px 0px 20px;
+    color: blue;
+
+
+}
+
+h1{
+    overflow-wrap: break-word;
+    color: var(--verdeClaro);
+    text-align: center;
+    word-break: break-all;
+    margin-top: 20px;
+
+
+
+
+}
+
+.botaoInscrever {
+
+    margin: 10px 0 30px 0;
+
+    width: 130px;
+    text-align: center;
+    background-color: #467700;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.botaoInscrever:hover {
+
+    background-color: white;
+    color: #467700;
+    font-weight: bold;
+
+    border: 1px solid #467700;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .containerEvento img {
+
+       
+        width: 95vw;
+        
+        
+        
+    
+    
+    }
+
+    .containerEvento{
+
+        width: 100%;
+
+
+
+    }
+
+
+}

@@ -1,5 +1,5 @@
 section {
-    background-color: var(--bgDark);
+    
     color: var(--fontWhite);
     display: flex;
     align-items: center;
@@ -7,8 +7,10 @@ section {
     flex-direction: column;
     margin-top: 20px;
 
-    border-bottom: 1px solid var(--verdeClaro);
-    padding-bottom: 10px;
+    
+    
+
+   
     
 
 }
@@ -31,7 +33,9 @@ section {
 .swiperMaster{
     margin-top: 10px;
     width: 60vw;
-    z-index: 1; 
+    z-index: 1;
+    min-width: 320px;
+    max-width: 1920px; 
 
 }
 
@@ -45,6 +49,17 @@ section {
 
 }
 
+.degrade{
+
+    background-image: linear-gradient(to right, var(--verdeEscuro), #00ff00);
+    height: 3px;
+    width: 50vw;
+
+
+
+
+}
+
 @media only screen and (max-width: 1024px) {
 
     .swiperMaster{
@@ -54,6 +69,17 @@ section {
     
     
     }
+
+    
+.degrade{
+
+    
+    width: 90vw;
+
+
+
+
+}
 
 
 
