@@ -80,3 +80,35 @@ export const palestrasCardList = [
   
   
   ];
+
+
+export const standCardList = [
+
+
+  {
+    id: 1,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212187&authkey=%21AE4qdpIBzb3ga8g"
+      
+  },
+
+  {
+      id: 2,
+      imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212187&authkey=%21AE4qdpIBzb3ga8g"
+      
+  },
+
+  {
+      id: 3,
+      imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212187&authkey=%21AE4qdpIBzb3ga8g"
+  
+  },
+
+  {
+      id: 4,
+      imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212187&authkey=%21AE4qdpIBzb3ga8g"
+      
+  },
+
+  
+  
+  ];

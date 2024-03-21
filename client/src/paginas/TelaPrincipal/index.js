@@ -7,6 +7,8 @@ import './style.css';
 import { useContext } from "react";
 
 import { UserContext } from "../../context/UserContext";
+import Footer from "../../componentes/Footer/Footer";
+import CardStand from "../../componentes/cardStand/cardStand";
 
 function TelaPrincipal() {
 
@@ -27,11 +29,9 @@ function TelaPrincipal() {
   
 
   return (
+
     <>
-
-    <h1>{user.nome}</h1>
-    
-
+  
       <Navbar />
 
       <main>
@@ -48,12 +48,25 @@ function TelaPrincipal() {
           title="Oficinas"
           codEvento= "2"        
         
+        />
+
+        <CardStand
+
+
+          title="Stands"
+        
+        
+        
         />        
   
 
 
       </main>
-      
+
+      {/* add location
+       */}
+
+      <Footer/>
       
      
 

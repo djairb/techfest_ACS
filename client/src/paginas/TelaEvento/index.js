@@ -10,6 +10,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 
 import { palestrasCardList, oficinasCardList } from "../../componentes/dados";
+import Navbar from "../../componentes/Navbar/Navbar";
 
 function TelaEvento() {
 
@@ -49,33 +50,32 @@ function TelaEvento() {
     
     // toggleUser(newUser);
 
-    // navigate('/');
+    navigate('/');
 
 
   }
 
   return (
 
+    <>
+
+    <Navbar/>
+    
+    
+
     <div className="containerEvento">
 
-
       <img src={objetoEvento.imgSrc} />
-
-
 
       <h1>{objetoEvento.title}</h1>
 
       <p>{objetoEvento.descricao}</p>
 
-
       <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button>
 
-      
-
-
-
-
     </div>
+
+    </>
 
 
 

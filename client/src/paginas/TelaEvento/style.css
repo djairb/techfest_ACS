@@ -6,7 +6,7 @@
     align-items: center;
 
 
-    width: 1200px;
+    width: 1100px;
     min-width: 320px;
     max-width: 1920px;
     margin: 0 auto;
@@ -21,18 +21,18 @@
 
 .containerEvento img {
 
-    max-width: 1200px;
-    width: 1200px;
+    max-width: 1100px;
+    width: 1100px;
     height: 300px;
     object-fit: cover;
     margin: 0 auto;
     border-radius: 0px 20px 0px 20px;
-    color: blue;
+    
 
 
 }
 
-h1 {
+.containerEvento h1 {
     overflow-wrap: break-word;
     color: var(--verdeClaro);
     text-align: center;
@@ -45,7 +45,7 @@ h1 {
 }
 
 
-p {
+.containerEvento p {
 
     overflow-wrap: break-word;
     color: var(--verdeClaro);
@@ -90,11 +90,6 @@ p {
 
 
         width: 95vw;
-
-
-
-
-
     }
 
     .containerEvento {
