@@ -1,4 +1,4 @@
-.containerEvento{
+.containerEvento {
 
     display: flex;
     flex-direction: column;
@@ -14,24 +14,25 @@
     border: 1px solid var(--verdeClaro);
     border-radius: 5px;
 
-    
+
 
 
 }
+
 .containerEvento img {
 
     max-width: 1200px;
-	width: 1200px;
+    width: 1200px;
     height: 300px;
     object-fit: cover;
-	margin: 0 auto;
+    margin: 0 auto;
     border-radius: 0px 20px 0px 20px;
     color: blue;
 
 
 }
 
-h1{
+h1 {
     overflow-wrap: break-word;
     color: var(--verdeClaro);
     text-align: center;
@@ -42,6 +43,21 @@ h1{
 
 
 }
+
+
+p {
+
+    overflow-wrap: break-word;
+    color: var(--verdeClaro);
+    width: 90%;
+    text-align: center;
+    word-break: break-all;
+    margin: 10px 0px;
+
+
+
+}
+
 
 .botaoInscrever {
 
@@ -72,16 +88,16 @@ h1{
 
     .containerEvento img {
 
-       
+
         width: 95vw;
-        
-        
-        
-    
-    
+
+
+
+
+
     }
 
-    .containerEvento{
+    .containerEvento {
 
         width: 100%;
 

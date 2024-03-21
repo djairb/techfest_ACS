@@ -13,12 +13,12 @@ function TelaPrincipal() {
   const {user, toggleUser} = useContext(UserContext);
 
 
-  const newUser = {
-    nome: "Djair",
-    id: 550
-  }
+  // const newUser = {
+  //   nome: "Djair",
+  //   id: 550
+  // }
 
-  toggleUser(newUser);
+  // toggleUser(newUser);
 
  
 

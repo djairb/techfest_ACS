@@ -6,33 +6,71 @@ import { useContext } from "react";
 
 import { UserContext } from "../../context/UserContext";
 
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+
+
+import { palestrasCardList, oficinasCardList } from "../../componentes/dados";
 
 function TelaEvento() {
 
-    const location = useLocation();
+  
+
+  const location = useLocation();
+
+  const navigate = useNavigate();
 
   // Obtém o dado do state
-    const dado = location.state;
+  const dado = location.state;
 
-    const {user, toggleUser} = useContext(UserContext);
-    console.log("tela evento")
-    console.log(dado)
+  const { toggleUser } = useContext(UserContext);
+  
+
+  let data;
+
+  { dado.tipo === "palestra" ? data = palestrasCardList : data = oficinasCardList }
+
+  let objetoEvento;
+
+  data.forEach((objeto) => {
+    // Comparação do ID dentro do loop
+    if (objeto.id === dado.id) {
+      objetoEvento = objeto;
+      // Interrompe a iteração após encontrar o ID 4
+      return;
+    }
+  });
+  
+  const realizarInscrição = () =>{
+
+    // const newUser = {
+    //     nome: "Djair",
+    //     id: 550
+    //   }
+    
+    // toggleUser(newUser);
+
+    // navigate('/');
+
+
+  }
 
   return (
 
     <div className="containerEvento">
 
 
-        <img src="https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212185&authkey=%21AE4rnEe73tpFrwA" />
-
-            
-
-        <h1>{dado.tipo}</h1>
+      <img src={objetoEvento.imgSrc} />
 
 
-        <button className="botaoInscrever">Se Inscrever</button>
 
+      <h1>{objetoEvento.title}</h1>
+
+      <p>{objetoEvento.descricao}</p>
+
+
+      <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button>
+
+      
 
 
 
