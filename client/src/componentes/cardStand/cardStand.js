@@ -28,16 +28,6 @@ register();
 
 function CardStand(props) {
 
-
-    const [isOpen, setIsOpen] = useState(false);
-    const [lightboxImage, setLightboxImage] = useState('');
-
-    const handleClickImagem = (imageSrc) => {
-        setIsOpen(true);
-        setLightboxImage(imageSrc);
-    };
-
-
     return (
 
         <section>

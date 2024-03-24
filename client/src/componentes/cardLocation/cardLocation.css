@@ -1,0 +1,29 @@
+iframe{
+
+
+    width:70%;
+    height:300px;
+    border-radius: 10px;
+    margin: 15px 0;
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    iframe{
+
+
+        width:90%;
+        
+    
+    
+    
+    }
+    
+
+
+}

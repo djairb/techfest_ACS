@@ -10,6 +10,8 @@ import { UserContext } from "../../context/UserContext";
 import Footer from "../../componentes/Footer/Footer";
 import CardStand from "../../componentes/cardStand/cardStand";
 
+import CardLocation from "../../componentes/cardLocation/cardLocation";
+
 function TelaPrincipal() {
 
   const {user, toggleUser} = useContext(UserContext);
@@ -57,7 +59,9 @@ function TelaPrincipal() {
         
         
         
-        />        
+        />
+
+        <CardLocation/>        
   
 
 
