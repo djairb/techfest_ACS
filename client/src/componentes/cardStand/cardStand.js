@@ -6,6 +6,9 @@ import { register } from 'swiper/element/bundle'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import {SlideshowLightbox} from 'lightbox.js-react'
+import 'lightbox.js-react/dist/index.css'
+
 
 
 // Import Swiper styles
@@ -81,11 +84,10 @@ function CardStand(props) {
 
                     <SwiperSlide key={item.id}>
 
-                        <img
-                            className="standImg"
-                            src={item.imgSrc}
+                        <SlideshowLightbox className="container grid grid-cols-3 gap-2 mx-auto">
+                            <img className="w-full rounded standImg" src={item.imgSrc} />
 
-                        />
+                        </SlideshowLightbox>
                     </SwiperSlide>
                 ))}
             </Swiper>
