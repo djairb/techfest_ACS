@@ -18,7 +18,7 @@ function Navbar(){
 
         <header>
 
-             <img src={logo} alt="Descrição da imagem" />
+             <img src={logo} alt="logo-techFest" />
              <nav ref={navRef}>
                 <a href="/#">Palestras</a>
                 <a href="/#">Oficinas</a>
@@ -32,9 +32,7 @@ function Navbar(){
              </nav>
              <button className= "nav-btn" onClick={showNavBar}>
                 <FaBars/>                
-            </button>  
-
-            
+            </button>     
 
 
 

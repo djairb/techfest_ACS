@@ -11,6 +11,7 @@ import Footer from "../../componentes/Footer/Footer";
 import CardStand from "../../componentes/cardStand/cardStand";
 
 import CardLocation from "../../componentes/cardLocation/cardLocation";
+import MainHome from "../../componentes/MainHome/MainHome";
 
 function TelaPrincipal() {
 
@@ -38,6 +39,8 @@ function TelaPrincipal() {
 
       <main>
 
+      <MainHome/>  
+
       <Section
 
         title="Palestras"
@@ -61,7 +64,15 @@ function TelaPrincipal() {
         
         />
 
-        <CardLocation/>        
+        <CardLocation
+        
+          title="Localização"
+        
+        
+        
+        />
+
+              
   
 
 

@@ -1,0 +1,110 @@
+@keyframes typing {
+    0% { width: 0 }
+    63% { width: 100% }
+    100% { width: 100% }
+}
+  
+@keyframes blink-caret {
+50% { border-color: transparent; }
+}
+
+.containerTexto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.containerLogo{
+
+    width: 50%;
+}
+  
+.textoWelcome {
+
+    
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid var(--verdeClaro);
+    animation:
+        typing 11s steps(40, end) infinite,
+        blink-caret .75s step-end infinite;
+    
+    font-size: 70px;
+    
+}
+
+.containerTexto h1{
+
+    font-size: 90px;
+
+
+    
+}
+
+
+.containerTexto a{
+    color: var(--verdeClaro);
+}
+
+.textoWelcome a{
+
+    color: var(--verdeClaro);
+}
+
+.mainHome{
+
+    display: flex;
+    flex-direction: wrap;
+    width: 98%;
+    
+}
+
+.calendario{
+
+    width: 50px;
+}
+
+.logoGrande{
+    width: 100%
+}
+  
+
+@media only screen and (max-width: 1024px) {
+
+    
+    .mainHome{
+        display: flex;
+        flex-direction: column;
+        
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .containerLogo, .containerTexto{
+        width: 100%;
+    }
+
+    .containerLogo{
+        
+    }
+
+    .containerTexto h1{
+        font-size: 48px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logoGrande{
+        width: 95%;
+    }
+
+
+
+}
