@@ -40,11 +40,24 @@
 
 .containerTexto h1{
 
-    font-size: 90px;
+    font-size: 70px;
 
 
     
 }
+
+.logoGrande {
+    animation: scale 1s infinite alternate;
+  }
+  
+  @keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
 
 
 .containerTexto a{
@@ -72,6 +85,12 @@
 .logoGrande{
     width: 100%
 }
+
+
+/* doidica */
+
+
+
   
 
 @media only screen and (max-width: 1024px) {
