@@ -13,9 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: right;   
     
 }
 
@@ -62,6 +60,11 @@
 
 .containerTexto a{
     color: var(--verdeClaro);
+    font-weight: bold;
+}
+
+.containerTexto h2{
+    font-size: 25px;
 }
 
 .textoWelcome a{
@@ -89,7 +92,21 @@
 
 /* doidica */
 
+.icon-date-calendar img{
+    width: 20px;
+}
 
+.icon-date-calendar h2{
+    color: var(--verdeClaro);
+}
+
+.icon-date-calendar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
 
   
 

@@ -5,12 +5,54 @@ import calendario from "../../img/calendar-home.png";
 import logoGrande from "../../img/logoGrande.png";
 
 import Typed from 'typed.js';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 
 function MainHome() {
 
-    
+
+    const dataEvento = new Date(2024, 3, 20, 14, 0, 0); // Ano, Mês (0-11), Dia, Hora, Minuto, Segundo -- O mês de março é o número 2 no JavaScript, pois os meses são indexados a partir de 0.
+
+    // Estado para armazenar a contagem regressiva
+    const [contagem, setContagem] = useState({
+        dias: 0,
+        horas: 0,
+        minutos: 0,
+        segundos: 0,
+    });
+
+    // Efeito para atualizar a contagem regressiva a cada segundo
+    useEffect(() => {
+        const atualizarContagem = () => {
+            const agora = new Date();
+            const diferenca = dataEvento - agora;
+
+            // Calcular dias, horas, minutos e segundos
+            const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((diferenca % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((diferenca % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((diferenca % (1000 * 60)) / 1000);
+
+            // Atualizar o estado da contagem
+            setContagem({
+                dias,
+                horas,
+                minutos,
+                segundos,
+            });
+        };
+
+        // Chamar a função a cada segundo
+        const intervalo = setInterval(atualizarContagem, 1000);
+
+        // Limpar o intervalo quando o componente for desmontado
+        return () => clearInterval(intervalo);
+    }, []);
+
+    // Formatar a contagem regressiva
+    const contagemFormatada = `${contagem.dias} dias ${contagem.horas}h, ${contagem.minutos}m e ${contagem.segundos}s`;
+
+
 
 
     useEffect(() => {
@@ -33,8 +75,13 @@ function MainHome() {
                 <div className='containerTexto'>
 
                     <h1 id="my-h1">Vem aí o maior <a>Festival de Tecnologia</a> da Mata Norte!</h1>
+                    <div className='icon-date-calendar'>
 
+                        <img src={calendario}></img>
+                        <h2>20 de Abril de 2024</h2>
 
+                    </div>
+                    <h2>Faltam <a>{contagemFormatada}</a> para o evento!</h2>
 
                 </div>
 
