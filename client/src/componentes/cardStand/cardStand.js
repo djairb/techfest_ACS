@@ -79,6 +79,7 @@ function CardStand(props) {
 
                         </SlideshowLightbox>
                     </SwiperSlide>
+                    //antes das...
                 ))}
             </Swiper>
 
