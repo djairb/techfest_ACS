@@ -74,8 +74,12 @@ function CardStand(props) {
 
                     <SwiperSlide key={item.id}>
 
-                        <SlideshowLightbox showControls={false} modalClose="clickOutside" className="container grid grid-cols-3 gap-2 mx-auto">
-                            <img className="w-full rounded standImg" src={item.imgSrc} />
+                        <SlideshowLightbox
+                            showControls={true}
+                            modalClose="clickOutside"
+                            className="container grid grid-cols-3 gap-2 mx-auto">
+
+                                <img className="w-full rounded standImg" src={item.imgSrc} />
 
                         </SlideshowLightbox>
                     </SwiperSlide>
