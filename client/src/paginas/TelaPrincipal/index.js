@@ -13,6 +13,10 @@ import CardStand from "../../componentes/cardStand/cardStand";
 import CardLocation from "../../componentes/cardLocation/cardLocation";
 import MainHome from "../../componentes/MainHome/MainHome";
 
+import bgMain from "../../img/bg-main.jpg";
+
+import { Background } from "react-image";
+
 function TelaPrincipal() {
 
   const {user, toggleUser} = useContext(UserContext);
@@ -23,77 +27,66 @@ function TelaPrincipal() {
   //   id: 550
   // }
 
-  // toggleUser(newUser);
-
- 
-
-  
-
-  
+  // toggleUser(newUser); 
 
   return (
 
     <>
-  
+
+
       <Navbar />
-
-      <main>
-
-      <MainHome/>  
-
-      <Section
-
-        title="Palestras"
-        codEvento= "1"        
       
-      />
 
-      <Section
+        <main>
+
+        
+
+        <MainHome/>  
+
+        <Section
+
+          title="Palestras"
+          codEvento= "1"        
+
+        />
+
+        <Section
+            
+            title="Oficinas"
+            codEvento= "2"        
           
-          title="Oficinas"
-          codEvento= "2"        
-        
-        />
+          />
 
-        <CardStand
+          <CardStand
 
+            title="Stands"     
+          
+          />
 
-          title="Stands"
+          <CardLocation
+          
+            title="Localização"
+          />
         
-        
-        
-        />
 
-        <CardLocation
-        
-          title="Localização"
-        
-        
-        
-        />
-
-              
-  
+        </main>
 
 
-      </main>
+
+
+      
+      
+
+      
 
       {/* add location
        */}
 
       <Footer/>
       
-     
-
-
     </>
 
-
-
   );
-
-
-
 
 };
 
