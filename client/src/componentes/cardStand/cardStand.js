@@ -75,6 +75,8 @@ function CardStand(props) {
                     <SwiperSlide key={item.id}>
 
                         <SlideshowLightbox
+                        ///fullsreen true pra imagens muito grandes-
+                            fullScreen={true}
                             showControls={true}
                             modalClose="clickOutside"
                             className="container grid grid-cols-3 gap-2 mx-auto">
