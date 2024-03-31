@@ -91,7 +91,7 @@ app.get("/getUser", (req, res) =>{
     let usuario = req.query.usuario ?? '';
     let senha = req.query.senha ?? '';
 
-    let SQL= "SELECT * FROM usuarios WHERE usuario = ? and senha = ?";
+    let SQL= "SELECT * FROM usuario WHERE usuario = ? and senha = ?";
 
     db.query(SQL, [usuario, senha], (err, result) =>{
 

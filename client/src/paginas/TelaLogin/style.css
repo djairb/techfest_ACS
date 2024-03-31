@@ -13,8 +13,8 @@
   
   }
   
-  .register--container {
-  
+.register--container {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,14 +23,34 @@
     width: 250px;
     height: 280px;
     color: white;
-  
+
     border: 3px solid var(--verdeClaro);
     border-radius: 30px;
     background-color: var(--bgDarkLess);
-  
-  
-  
-  }
+
+
+
+}
+
+.login-name{
+
+    color: var(--verdeClaro);
+
+
+
+}
+
+.botaoLogin{
+
+    font-size: 17px;
+    margin: 0px;
+
+
+
+
+}
+
+
   
   .bg-verde, .bg-vermelho{
   

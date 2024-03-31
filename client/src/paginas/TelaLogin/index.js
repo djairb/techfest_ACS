@@ -76,7 +76,7 @@ function TelaLogin() {
       userAceito.texto = `Bem vindo usuário com ID: ${dadoPadrao.id}`
       //cuidado na parte deslogar !!!!!!!!!!!
 
-      //MUDA O XONTEXT
+      toggleUser(dadoPadrao);
     }
 
 
@@ -103,12 +103,6 @@ function TelaLogin() {
 
 
   }
-
-
-
-
-
-
   return (
 
 
@@ -119,7 +113,7 @@ function TelaLogin() {
         <Navbar/>
         <div className='register--container'>
 
-          <h1>{user.id}</h1>
+          <h1 className='login-name'>LOGIN</h1>
 
           <input
             type='text'
@@ -140,15 +134,16 @@ function TelaLogin() {
           <button
 
             onClick={handleClickButton}
+            className="botaoEvento botaoLogin"
 
 
           >
-            Cadastrar
+            Logar
           </button>
 
-          {logado && <button onClick={navegarPagina}>Proxima Pagina</button>}
-
           <h1 className={texto.style}>{texto.texto}</h1>
+
+          
 
         </div>
 
