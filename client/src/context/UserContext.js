@@ -7,7 +7,7 @@ export const UserProvider = ({ children }) => {
     const [user, setUser] = useState({
 
         id: 0,
-        nome: "Fazer Login"
+        nome: "Entrar na Conta"
 
     });
 

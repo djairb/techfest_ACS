@@ -20,7 +20,7 @@ function CardSection(props){
 
     const navegarPagina = () =>{
 
-    navigate('/tela-evento', { state: eventoDados });
+        navigate('/tela-evento', { state: eventoDados });
     }
 
     return (
@@ -30,12 +30,8 @@ function CardSection(props){
             
             <h1>{props.title}</h1>
 
-
-            <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>
-
+            <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>        
             
-            
-                
             
         </div>
             

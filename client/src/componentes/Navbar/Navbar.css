@@ -72,6 +72,33 @@ header .nav-btn {
 
 }
 
+
+.login-button{
+
+    width: auto;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+.login-button:hover{
+
+    width: auto;
+    text-align: center;
+    background-color: white;
+    color: var(--verdeEscuro);
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 @media only screen and (max-width: 1024px) {
 
     header .nav-btn {

@@ -55,7 +55,7 @@ function TelaPrincipal() {
             title="Oficinas"
             codEvento= "2"        
           
-          />
+        />
 
           <CardStand
 
@@ -64,8 +64,9 @@ function TelaPrincipal() {
           />
 
           <CardLocation
-          
+       
             title="Localização"
+
           />
         
 

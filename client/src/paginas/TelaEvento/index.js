@@ -12,9 +12,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { palestrasCardList, oficinasCardList } from "../../componentes/dados";
 import Navbar from "../../componentes/Navbar/Navbar";
 
-function TelaEvento() {
-
-  
+function TelaEvento() {  
 
   const location = useLocation();
 
