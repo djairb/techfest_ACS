@@ -1,19 +1,10 @@
-import "./cardStand.css";
+import "./ApresentSection.css";
 
-import React, { useState } from 'react';
-
-import { register } from 'swiper/element/bundle'
+import { register } from 'swiper/element/bundle';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'lightbox.js-react/dist/index.css'
-import {SlideshowLightbox} from 'lightbox.js-react'
-
-
-
 // Import Swiper styles
-
-// CARD STAND É SOMENTE PRA MOSTRAR FOTO!!!!!
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -23,12 +14,22 @@ import 'swiper/css/scrollbar';
 
 import { EffectCoverflow } from 'swiper/modules';
 
+import { expoCardList, apresentCardList24 } from "../../data/dados";
+import CardExpo from "../cardExpo/cardExpo";
 
-import { standCardList } from "../../componentes/dados";
+import { useNavigate } from 'react-router-dom';
+import CardApresent from "../cardApresent/cardApresent";
 
 register();
 
-function CardStand(props) {
+function ApresentSection(props) {
+
+    const navigate = useNavigate();
+
+    const abrirPaginaTodos = () => {
+
+        navigate('/pagina-todos-cards-apresent');
+    }
 
     return (
 
@@ -58,7 +59,6 @@ function CardStand(props) {
                         depth: 100,
                         modifier: 2.5,
                         slideShadows: true,
-
                     }
                 }
                 autoplay={{
@@ -68,43 +68,31 @@ function CardStand(props) {
                 pagination={{ clickable: true }}
                 navigation
                 className="swiperMaster"
-
-
-
             >
-                {standCardList.map((item) => (
+                {apresentCardList24.map((item) => (
 
                     <SwiperSlide key={item.id}>
 
-                        <SlideshowLightbox
-                        ///fullsreen true pra imagens muito grandes-
-                            fullScreen={true}
-                            showControls={true}
-                            modalClose="clickOutside"
-                            className="container grid grid-cols-3 gap-2 mx-auto">
+                        <CardApresent
 
-                                <img className="w-full rounded standImg" src={item.imgSrc} />
+                            id={item.id}
+                            imgSrc={item.imgSrc}
+                            titulo={item.titulo}
+                            local={item.local}
+                            horario={item.horario}
+                        />
 
-                        </SlideshowLightbox>
                     </SwiperSlide>
-                    //antes das...
                 ))}
             </Swiper>
 
-
-
-
-
+            <button onClick={abrirPaginaTodos} className="botaoVerTodos">Ver Todos</button>
 
             <div className="degrade"></div>
         </section>
 
 
-
     );
-
-
-
 }
 
-export default CardStand;
+export default ApresentSection;

@@ -1,19 +1,10 @@
-import "./cardStand.css";
+import "./ExpoSection.css";
 
-import React, { useState } from 'react';
-
-import { register } from 'swiper/element/bundle'
+import { register } from 'swiper/element/bundle';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'lightbox.js-react/dist/index.css'
-import {SlideshowLightbox} from 'lightbox.js-react'
-
-
-
 // Import Swiper styles
-
-// CARD STAND É SOMENTE PRA MOSTRAR FOTO!!!!!
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -23,18 +14,32 @@ import 'swiper/css/scrollbar';
 
 import { EffectCoverflow } from 'swiper/modules';
 
+import {expoCardList} from "../../data/dados";
+import CardExpo from "../cardExpo/cardExpo";
 
-import { standCardList } from "../../componentes/dados";
+import { useNavigate } from 'react-router-dom';
 
 register();
 
-function CardStand(props) {
+function ExpoSection(props) {
+
+    const navigate = useNavigate();
+
+    const abrirPaginaTodos = () =>{
+        
+        navigate('/pagina-todos-cards-expo');
+
+    }
+
+    let data = expoCardList;
 
     return (
 
         <section>
 
             <h1 className="titulo">{props.title}</h1>
+            
+
             <Swiper
 
                 slidesPerView={3}
@@ -67,44 +72,31 @@ function CardStand(props) {
                 modules={[EffectCoverflow]}
                 pagination={{ clickable: true }}
                 navigation
-                className="swiperMaster"
-
-
-
+                className="swiperMaster"             
             >
-                {standCardList.map((item) => (
+                {data.map((item) => (
 
-                    <SwiperSlide key={item.id}>
+                    <SwiperSlide key={item.id}>                       
 
-                        <SlideshowLightbox
-                        ///fullsreen true pra imagens muito grandes-
-                            fullScreen={true}
-                            showControls={true}
-                            modalClose="clickOutside"
-                            className="container grid grid-cols-3 gap-2 mx-auto">
+                        <CardExpo
 
-                                <img className="w-full rounded standImg" src={item.imgSrc} />
+                            id={item.id}
+                            imgSrc={item.imgSrc}
+                            titulo={item.titulo}
+                            responsavel={item.responsavel}                            
+                        />
 
-                        </SlideshowLightbox>
                     </SwiperSlide>
-                    //antes das...
                 ))}
             </Swiper>
 
-
-
-
-
+            <button onClick={abrirPaginaTodos} className="botaoVerTodos">Ver Todos</button>
 
             <div className="degrade"></div>
-        </section>
-
+        </section>      
 
 
     );
-
-
-
 }
 
-export default CardStand;
+export default ExpoSection;

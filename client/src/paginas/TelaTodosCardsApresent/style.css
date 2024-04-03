@@ -1,0 +1,65 @@
+.containerTelaTodosCards {
+
+
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+
+    justify-content: center;
+
+    row-gap: 0px;
+
+
+}
+
+.titleApresent{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+h1 {
+
+    color: white;
+    font-size: larger;
+
+}
+
+
+
+
+
+.botaoInscrever {
+
+    margin: 10px 0 30px 0;
+
+    width: 130px;
+    text-align: center;
+    background-color: #467700;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.botaoInscrever:hover {
+
+    background-color: white;
+    color: #467700;
+    font-weight: bold;
+
+    border: 1px solid #467700;
+
+}
+
+
+

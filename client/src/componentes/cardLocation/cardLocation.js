@@ -1,6 +1,5 @@
 import './cardLocation.css'
 
-import React, { useState } from 'react';
 
 function CardLocation(props) {
 

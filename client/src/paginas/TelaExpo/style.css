@@ -1,0 +1,131 @@
+.containerEvento {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 1100px;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    border: 1px solid var(--verdeClaro);
+    border-radius: 0px;
+    min-height: 100vh;
+     
+
+}
+
+.containerEvento img {
+
+    max-width: 1100px;
+    width: 1099px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 0px 20px 0px 20px;
+    object-position: top;
+
+
+
+}
+
+.containerEvento h1 {
+    overflow-wrap: break-word;
+    color: var(--verdeClaro);
+    text-align: center;
+    word-break: break-all;
+    margin-top: 20px;
+    font-size: 35px;
+
+
+
+
+}
+
+
+.pExpo {
+
+    color: rgb(255, 255, 255);
+
+
+
+    width: 96%;
+    text-align: center;
+    line-height: 40px;
+    
+
+
+    font-size: 20px;
+
+    margin: 15px 0;
+
+
+
+}
+
+
+.botaoInscrever {
+
+    margin: 10px 0 30px 0;
+
+    width: 130px;
+    text-align: center;
+    background-color: #467700;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.botaoInscrever:hover {
+
+    background-color: white;
+    color: #467700;
+    font-weight: bold;
+
+    border: 1px solid #467700;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .containerEvento {
+
+        justify-content: flex-start;
+        
+         
+    
+    }
+
+    .containerEvento img {
+
+
+        width: 95vw;
+        object-fit: contain;
+        height: 250px;
+        
+    }
+
+    .containerEvento {
+
+        width: 100%;
+
+
+
+    }
+
+    .containerEvento h1 {
+
+        width: 95%;
+
+
+    }
+
+
+}

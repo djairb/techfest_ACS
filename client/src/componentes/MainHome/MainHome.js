@@ -57,7 +57,7 @@ function MainHome() {
 
     useEffect(() => {
         const typed = new Typed('#my-h1', {
-            strings: ['Vem aí o maior Festival de Tecnologia da Mata Norte!'],
+            strings: ['Vem aí o maior Festival de Tecnologia e Inovação da Mata Norte!'],
             typeSpeed: 40,
             backSpeed: 20,
             loop: true,
@@ -74,7 +74,7 @@ function MainHome() {
 
                 <div className='containerTexto'>
 
-                    <h1 id="my-h1">Vem aí o maior <a>Festival de Tecnologia</a> da Mata Norte!</h1>
+                    <h1 id="my-h1">Vem aí o maior <a>Festival de Tecnologia e Inovação</a> da Mata Norte!</h1>
                     <div className='icon-date-calendar'>
 
                         <img src={calendario}></img>

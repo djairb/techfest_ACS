@@ -16,10 +16,13 @@ import MainHome from "../../componentes/MainHome/MainHome";
 import bgMain from "../../img/bg-main.jpg";
 
 import { Background } from "react-image";
+import ExpoSection from "../../componentes/ExpoSection/ExpoSection";
+import Apoio from "../../componentes/apoio/Apoio";
+import ApresentSection from "../../componentes/ApresentSection/ApresentSection";
 
 function TelaPrincipal() {
 
-  const {user, toggleUser} = useContext(UserContext);
+  const { user, toggleUser } = useContext(UserContext);
 
 
   // const newUser = {
@@ -35,56 +38,54 @@ function TelaPrincipal() {
 
 
       <Navbar />
-      
 
-        <main>
 
-        
+      <main>
 
-        <MainHome/>  
+        <MainHome />
 
-        <Section
 
-          title="Palestras"
-          codEvento= "1"        
+        <ExpoSection
+
+          title="Exposições - Stands"
 
         />
 
-        <Section
-            
-            title="Oficinas"
-            codEvento= "2"        
-          
+        <ApresentSection
+
+          title="Programação Multicultural"
+          subTitle="24 de Abril"
+          data="24"
+
+
+
         />
 
-          <CardStand
 
-            title="Stands"     
-          
-          />
+        <CardLocation
 
-          <CardLocation
-       
-            title="Localização"
+          title="Localização"
 
-          />
-        
+        />
 
-        </main>
+        <Apoio />
+
+
+      </main>
 
 
 
 
-      
-      
 
-      
+
+
+
 
       {/* add location
        */}
 
-      <Footer/>
-      
+      <Footer />
+
     </>
 
   );

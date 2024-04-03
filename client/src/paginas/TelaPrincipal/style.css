@@ -26,3 +26,20 @@ main{
 
 
 }
+
+.alteracao{
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+
+
+
+}
+
+h1{
+
+  color: white;
+  margin: 0 auto;
+}

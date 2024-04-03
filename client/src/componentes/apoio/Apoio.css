@@ -1,0 +1,65 @@
+.container-apoio-imagens {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 35px;
+
+
+
+    width: 65%;
+    height: 270px;
+    border-radius: 10px;
+    margin: 15px 0;
+    background-color: white;
+
+
+
+
+
+}
+
+.imagem-apoio {
+
+    width: 90px;
+    transition: transform 0.3s ease-in-out;
+    margin: 0px;
+}
+
+.imagem-apoio:hover {
+
+    transform: scale(1.3);
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .container-apoio-imagens {
+
+
+        width: 90%;
+        height: 400px;
+
+        justify-content: space-evenly;
+        column-gap: 20px;
+        row-gap: 2px;
+
+
+
+    }
+
+    .imagem-apoio {
+
+        width: 80px;
+
+    }
+
+
+
+
+}

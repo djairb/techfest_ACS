@@ -26,6 +26,8 @@ footer {
     align-items: center;
     color: var(--bgDark);
     font-weight: bold;
+    margin-top: auto;
+    object-position: bottom;
 
 }
 
@@ -48,13 +50,10 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
-    .pFooter{
+    .pFooter {
 
 
         width: 90%
-    
-    
-    
     }
 
 

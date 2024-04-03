@@ -39,7 +39,7 @@ export const palestrasCardList = [
   
   ];
 
-  export const oficinasCardList = [
+export const oficinasCardList = [
 
     {
       id: 1,
