@@ -159,8 +159,65 @@ export const standList = [
     subtitulo: "Projeto Passaporte Digital",
     descricao: "Neste stand acontecerá uma exposição sobre o sistema de monitoramento de saúde utilizando relógios inteligentes, visando fornecer informações em tempo real sobre diversos aspectos da saúde dos usuários. A iniciativa está sendo organizada por jovens do Projeto Passaporte Digital. "
 
+  }
+
+];
+
+export const apresentacaoList = [
+
+  {
+    id: 1,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Capoeira União da Bahia",
+    artista: "Mestre Vermelho",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
   },
-
-
+  {
+    id: 2,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Cavalo Marinho Boi Teimoso",
+    artista: "Mestre Borges Lucas",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 3,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Ciranda Caboclo",
+    artista: "Mestre Josivaldo Caboclo",
+    local: "Palco",
+    data: "25 de Abril",
+    horario: "10 da Manhã"
+  },
+  {
+    id: 4,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Grupo Teatral do Projeto Tou Ligado",
+    artista: "Geração Futuro",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 5,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Grupo Teatral “Quando a velhice chegar” do Projeto Comunidade Meu Lugar",
+    artista: "Cedili",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 6,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    titulo: "Maracatu De Baque Virado",
+    artista: "Centro Cultural Raio De Luz",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  }
 
 ];

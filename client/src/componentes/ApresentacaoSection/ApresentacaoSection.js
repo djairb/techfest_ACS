@@ -1,4 +1,4 @@
-import "./ApresentSection.css";
+import "./ApresentacaoSection.css";
 
 import { register } from 'swiper/element/bundle';
 
@@ -14,21 +14,29 @@ import 'swiper/css/scrollbar';
 
 import { EffectCoverflow } from 'swiper/modules';
 
-import { expoCardList, apresentCardList24 } from "../../data/dados";
-import CardExpo from "../cardExpo/cardExpo";
+import {apresentacaoList} from "../../data/dados";
+
 
 import { useNavigate } from 'react-router-dom';
-import CardApresent from "../cardApresent/cardApresent";
+import CardStand from "../CardStand/CardStand";
+import CardApresentacao from "../CardApresentacao/CardApresentacao";
+
 
 register();
 
-function ApresentSection(props) {
+function ApresentacaoSection(props) {
 
     const navigate = useNavigate();
 
-    const abrirPaginaTodos = () => {
+    const eventoDados = {
 
-        navigate('/pagina-todos-cards-apresent');
+        tipo: "apresentacao"
+    }
+
+    const abrirPaginaTodos = () =>{
+        
+        navigate('/tela-todos-cards', { state: eventoDados });
+
     }
 
     return (
@@ -36,9 +44,11 @@ function ApresentSection(props) {
         <section>
 
             <h1 className="titulo">{props.title}</h1>
+            
+
             <Swiper
 
-                slidesPerView={3}
+                slidesPerView={4}
 
                 style={{
 
@@ -59,6 +69,7 @@ function ApresentSection(props) {
                         depth: 100,
                         modifier: 2.5,
                         slideShadows: true,
+
                     }
                 }
                 autoplay={{
@@ -67,21 +78,27 @@ function ApresentSection(props) {
                 modules={[EffectCoverflow]}
                 pagination={{ clickable: true }}
                 navigation
-                className="swiperMaster"
+                className="swiperMaster"             
             >
-                {apresentCardList24.map((item) => (
+                {apresentacaoList.map((item) => (
 
                     <SwiperSlide key={item.id}>
 
-                        <CardApresent
+                        
+                                                                  
+                        <CardApresentacao
 
                             id={item.id}
                             imgSrc={item.imgSrc}
                             titulo={item.titulo}
+                            artista={item.artista}
                             local={item.local}
-                            horario={item.horario}
+                            data={item.data}
+                            horario={item.horario}                 
+                        
+                        
                         />
-
+                       
                     </SwiperSlide>
                 ))}
             </Swiper>
@@ -89,10 +106,10 @@ function ApresentSection(props) {
             <button onClick={abrirPaginaTodos} className="botaoVerTodos">Ver Todos</button>
 
             <div className="degrade"></div>
-        </section>
+        </section>      
 
 
     );
 }
 
-export default ApresentSection;
+export default ApresentacaoSection;
