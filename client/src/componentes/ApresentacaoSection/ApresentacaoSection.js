@@ -35,7 +35,7 @@ function ApresentacaoSection(props) {
 
     const abrirPaginaTodos = () =>{
         
-        navigate('/tela-todos-cards', { state: eventoDados });
+        navigate('/tela-todos-apresentacao', { state: eventoDados });
 
     }
 
