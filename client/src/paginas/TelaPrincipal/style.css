@@ -1,4 +1,3 @@
-
 html,
 body {
   margin: 0;
@@ -22,9 +21,10 @@ section {
 
 
 
-main{
+main {
 
   background-color: #121212;
+
 }
 
 .degrade {
@@ -48,8 +48,8 @@ main{
 
 
 
-.container-geral{
-  
+.container-geral {
+
 
 
   width: 10%;
@@ -61,7 +61,7 @@ main{
 
 }
 
-.alteracao{
+.alteracao {
 
   display: flex;
   width: 100%;
@@ -72,7 +72,7 @@ main{
 
 }
 
-h1{
+h1 {
 
   color: white;
   margin: 0 auto;

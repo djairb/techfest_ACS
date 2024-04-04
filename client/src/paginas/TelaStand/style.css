@@ -1,3 +1,72 @@
+.mainTelaStand {
+
+
+    width: 100%;
+    min-width: 320px;
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+
+
+    align-items: center;
+    color: white;
+
+    border: 1px solid var(--verdeClaro);
+    border-radius: 10px;
+
+
+
+}
+
+
+.mainTelaStand img {
+    max-width: 1100px;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: fill;
+
+    border-bottom: 1px solid var(--verdeClaro);
+
+
+
+
+
+}
+
+.standTexto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+    text-align: justify;
+
+    gap: 40px;
+
+
+
+}
+
+.standTexto h1 {
+    margin-top: 10px;
+    color: var(--verdeClaro);
+    font-size: 50px;
+}
+
+.standTexto p {
+    width: 90%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
 .containerEvento {
 
     display: flex;
@@ -14,7 +83,7 @@
     border: 1px solid var(--verdeClaro);
     border-radius: 0px;
     min-height: 100vh;
-     
+
 
 }
 
@@ -55,7 +124,7 @@
     width: 96%;
     text-align: center;
     line-height: 40px;
-    
+
 
 
     font-size: 20px;
@@ -95,12 +164,27 @@
 
 @media only screen and (max-width: 1024px) {
 
+
+
+    .mainTelaStand img {
+
+        height: auto;
+    }
+    .standTexto{
+        height: auto;
+    }
+
+    .mainTelaStand{
+        height: 80vh;
+    }
+
+    
     .containerEvento {
 
         justify-content: flex-start;
-        
-         
-    
+
+
+
     }
 
     .containerEvento img {
@@ -109,7 +193,7 @@
         width: 95vw;
         object-fit: contain;
         height: 250px;
-        
+
     }
 
     .containerEvento {
