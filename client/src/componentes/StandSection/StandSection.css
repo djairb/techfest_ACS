@@ -26,6 +26,8 @@ section {
 
     font-size: 16px;
     margin-bottom: 10px;
+    text-decoration: none;
+
 }
 
 .botaoVerTodos:hover {
