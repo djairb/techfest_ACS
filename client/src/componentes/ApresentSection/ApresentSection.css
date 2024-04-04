@@ -1,15 +1,3 @@
-section {
-
-    color: var(--fontWhite);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-top: 20px;
-
-
-}
-
 
 
 .botaoVerTodos {
@@ -65,26 +53,9 @@ section {
 
 }
 
-.titulo {
-
-    font-size: 35px;
-    color: var(--verdeClaro);
-    border-bottom: 2px solid var(--verdeClaro);
-    padding-bottom: 10px;
-
-
-}
-
-.degrade {
-
-    background-image: linear-gradient(to right, var(--verdeEscuro), #00ff00);
-    height: 3px;
-    width: 50vw;
 
 
 
-
-}
 
 @media only screen and (max-width: 1024px) {
 

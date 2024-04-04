@@ -1,110 +1,53 @@
-import "./cardStand.css";
+import './CardStand.css'
+import { Link } from 'react-router-dom';
 
-import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-import { register } from 'swiper/element/bundle'
+function CardStand(props){
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+    
+    const navigate = useNavigate();
 
-import 'lightbox.js-react/dist/index.css'
-import {SlideshowLightbox} from 'lightbox.js-react'
+    const eventoDados = {
 
+        id: props.id
+    //sei onde buscar em tela evento o evento em dados.js pra carregar na pagina
+    }
 
-
-// Import Swiper styles
-
-// CARD STAND É SOMENTE PRA MOSTRAR FOTO!!!!!
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
+    
 
 
-import { EffectCoverflow } from 'swiper/modules';
+    const navegarPagina = () =>{
 
-
-import { standCardList } from "../../componentes/dados";
-
-register();
-
-function CardStand(props) {
+        navigate('/tela-stand', { state: eventoDados });
+    }
 
     return (
+        <div class="cardStand">
 
-        <section>
+            <img src={props.imgSrc} />
 
-            <h1 className="titulo">{props.title}</h1>
-            <Swiper
+            <div>                
+           
+                <h1>{props.titulo}</h1>
 
-                slidesPerView={3}
+                <p>{props.subtitulo}</p>
 
-                style={{
+            </div>
+            
+            
 
-                    "--swiper-pagination-color": "#72c000",
-                    "--swiper-navigation-color": "#72c000",
-
-                }}
-
-                effect={'coverflow'}
-                grabCursor={true}
-                centeredSlides={2}
-                loop={true}
-
-                coverflowEffect={
-                    {
-                        rotate: 0,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 2.5,
-                        slideShadows: true,
-
-                    }
-                }
-                autoplay={{
-                    delay: 2000
-                }}
-                modules={[EffectCoverflow]}
-                pagination={{ clickable: true }}
-                navigation
-                className="swiperMaster"
-
-
-
-            >
-                {standCardList.map((item) => (
-
-                    <SwiperSlide key={item.id}>
-
-                        <SlideshowLightbox
-                        ///fullsreen true pra imagens muito grandes-
-                            fullScreen={true}
-                            showControls={true}
-                            modalClose="clickOutside"
-                            className="container grid grid-cols-3 gap-2 mx-auto">
-
-                                <img className="w-full rounded standImg" src={item.imgSrc} />
-
-                        </SlideshowLightbox>
-                    </SwiperSlide>
-                    //antes das...
-                ))}
-            </Swiper>
-
-
-
-
-
-
-            <div className="degrade"></div>
-        </section>
-
-
-
+            <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>        
+            
+            
+        </div>
+            
+            
     );
-
-
 
 }
 
 export default CardStand;
+
+
+
