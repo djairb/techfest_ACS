@@ -17,6 +17,7 @@ import MainHome from "../../componentes/MainHome/MainHome";
 
 import Apoio from "../../componentes/apoio/Apoio";
 import StandSection from "../../componentes/StandSection/StandSection";
+import ApresentacaoSection from "../../componentes/ApresentacaoSection/ApresentacaoSection";
 
 
 function TelaPrincipal() {
@@ -45,6 +46,13 @@ function TelaPrincipal() {
 
           title="Stands"
         
+        
+        />
+
+
+        <ApresentacaoSection
+
+          title="Apresentações Culturais"
         
         />       
 
