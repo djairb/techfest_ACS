@@ -54,7 +54,7 @@ function TelaStand() {
 
           <h1>{objetoStand.titulo}</h1>
 
-          <h2>{objetoStand.subtitulo}</h2>
+          <h2>Oferecido por: {objetoStand.subtitulo}</h2>
 
           <p>{objetoStand.descricao}</p>
 

@@ -26,7 +26,7 @@ function TelaTodosCardsStand() {
 
       <Navbar />
 
-      <main className="mainTelaStand">
+      <main className="mainTelaStandTodos">
 
         <h1 className="titulo titleApresent">Stands</h1>
 
