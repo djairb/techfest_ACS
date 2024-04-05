@@ -280,19 +280,55 @@ export const palestraList = [
     data:"23 de Abril",
     horario:"08h às 11h",
     palestranteNome:"Henrique Foresti",
-    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212216&authkey=%21ABYmtT7h9J9Z8No",
+    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212206&authkey=%21AGlSqJoc4_tEGGA",
     palestranteFormacao:"Professor Mineiro leciona na CESAR School, é bacharel em Ciências da Computação e tem como propósito realizar Transformação Social com Cultura, Arte e Tecnologia. Lidera o Garagino - time de pesquisas em Computação Física e já atuou em grandes empresas de tecnologia executando importantes projetos de inovação. Um dos destaques de sua carreira é a criação da plataforma Robolivre, que tem revolucionado o cenário da tecnologia.",
     mediadoraNome:"Andréa Luz",
     mediadoraImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212203&authkey=%21AF4yhCpbiiHEWSA",
     mediadoraFormacao:"Mestra em Ciências da Linguagem (UNICAP), Especialista em Neurociência, Psicologia Positiva e Mindfulness (PUCPR) e Especialista em Design Instrucional (SENAC SP). Atua como Analista Educacional Pleno, na CESAR School, em Projetos de Educação, Inovação e Tecnologias, com foco em Letramentos Digitais. É pesquisadora na área de Neurociência e sua relação com os processos cognitivos da aprendizagem e Psicanalista membro da Associação Brasileira de Filosofia e Psicanálise de São Paulo (ABRAFP/SP)."
   },
+  {
+    id: 2,
+    imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212201&authkey=%21ALv-sGdwbx9dBKo",
+    titulo: "REDES SOCIAIS PARA NEGÓCIOS",
+    descricao: "Nesta palestra, você aprenderá como usar as redes sociais de forma estratégica para alcançar seus objetivos de negócios. Abordaremos desde as melhores práticas para cada plataforma (Facebook, Instagram, LinkedIn, etc.) até a criação de conteúdo relevante e envolvente, gerenciamento eficiente de suas redes, análise de resultados e criação de anúncios eficazes.",
+    local: "Auditório - CTACS",
+    data:"23 de Abril",
+    horario:"13h30 às 16h30",
+    palestranteNome:"Lari e Matheus",
+    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212218&authkey=%21AAFZvsDLkjq79yA",
+    palestranteFormacao:"Lari e Matheus uniram sonho e paixão para criar a Saudade D'ocê. Em 4 meses, com R$ 50, mudaram de vida com vendas inovadoras. O sucesso inspirou a Vendup, que já impactou mais de 800 famílias, ajudando mães e empresárias a viverem seus sonhos. A história deles prova que paixão, trabalho e ferramentas certas levam ao sucesso.",
+    mediadoraNome:"Addalaziz de Moura",
+    mediadoraImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212217&authkey=%21AFi2klKbQCCg43M",
+    mediadoraFormacao:"Educador Popular, filósofo e escritor, autor da Pedagogia de Apoio ao Desenvolvimento Sustentável - PEADS. Atuou no Campo da Educação Popular na Arquidiocese de Olinda e Recife com Dom Hélder Câmara, na Diocese de Petrolina, fundador do Serviço de Tecnologia Alternativa e Instituto Abdalaziz de Moura."
+  }
 
+];
 
+export const oficinaList = [
 
-
-
-
-
-
+  {
+    id: 1,
+    imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212202&authkey=%21ADnXMmdSsO8WiGA",
+    titulo: "Descomplicando a Fotografia!",
+    descricao: "Aprenda tudo sobre sua câmera, domine composição e iluminação, explore técnicas avançadas e edite como um profissional. Ideal para iniciantes, amadores e entusiastas, a oficina oferece aulas teóricas e práticas para você aprender e se divertir. Capture momentos inesquecíveis!",
+    local: "Sala 01 - CTACS",
+    data:"23 de Abril",
+    horario:"13h30 às 16h30",
+    palestranteNome:"Mateus Ferreira",
+    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212219&authkey=%21AMEKW2fX7a7Ja5c",
+    palestranteFormacao:"Graduando em Publicidade e Propaganda na Universidade Estácio de Sá e técnico em design gráfico pele Escola Técnica Estadual. Trabalha com designer gráfico na Conexão Social, Jornalista no Voz de Pernambuco e Diretor de imagem na Siga Comunicação."
+  },
+  {
+    id: 2,
+    imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212202&authkey=%21ADnXMmdSsO8WiGA",
+    titulo: "Dominância da Câmera e Desenvolvimento Básico de Edição de Vídeos no Celular",
+    descricao: "Na oficina DOMINÂNCIA DA CÂMERA E DESENVOLVIMENTO BÁSICO DE EDIÇÃO DE VÍDEOS NO CELULAR, você vai aprender a filmar como um profissional e editar seus vídeos como um expert, tudo com seu smartphone. Domine técnicas de filmagem, aprenda noções de edição e crie vídeos incríveis para suas redes sociais ou YouTube. A oficina oferece aulas teóricas e práticas para você aprender e se divertir. Inscreva-se agora e domine a arte de criar vídeos!",
+    local: "Sala 02 - CTACS",
+    data:"23 de Abril",
+    horario:"13h30 às 16h30",
+    palestranteNome:"José Willame e Melquiades Alex",
+    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212219&authkey=%21AMEKW2fX7a7Ja5c",
+    palestranteFormacao:"José e Melquiades tem uma vasta experiência na área de edição de vídeos e possuem grande conhecimento nos mais avançados softwares de edição e composição. Nesta oficina, passarão aos expectadores as bases para se conseguir avançar nos métodos e técnicas da fotografia e edição."
+  }
 
 ];

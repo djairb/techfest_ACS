@@ -1,4 +1,4 @@
-import "./PalestraSection.css";
+import "./OficinaSection.css";
 
 import { register } from 'swiper/element/bundle';
 
@@ -14,18 +14,19 @@ import 'swiper/css/scrollbar';
 
 import { EffectCoverflow } from 'swiper/modules';
 
-import {apresentacaoList, palestraList} from "../../data/dados";
+import {apresentacaoList, oficinaList, palestraList} from "../../data/dados";
 
 
 import { useNavigate } from 'react-router-dom';
 import CardStand from "../CardStand/CardStand";
 import CardApresentacao from "../CardApresentacao/CardApresentacao";
 import CardPalestra from "../CardPalestra/CardPalestra";
+import CardOficina from "../CardOficina/CardOficina";
 
 
 register();
 
-function PalestraSection(props) {
+function OficinaSection(props) {
 
     const navigate = useNavigate();
 
@@ -36,7 +37,7 @@ function PalestraSection(props) {
 
     const abrirPaginaTodos = () =>{
         
-        navigate('/tela-todos-palestra', { state: eventoDados });
+        navigate('/tela-todos-oficina', { state: eventoDados });
 
     }
 
@@ -80,11 +81,11 @@ function PalestraSection(props) {
                 navigation
                 className="swiperMaster"             
             >
-                {palestraList.map((item) => (
+                {oficinaList.map((item) => (
 
                     <SwiperSlide key={item.id}>                        
                                                                   
-                        <CardPalestra
+                        <CardOficina
 
                             id={item.id}
                             imgSrc={item.imgSrc}
@@ -110,4 +111,4 @@ function PalestraSection(props) {
     );
 }
 
-export default PalestraSection;
+export default OficinaSection;

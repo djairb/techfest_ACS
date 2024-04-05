@@ -6,29 +6,27 @@ import './style.css';
 import Navbar from "../../componentes/Navbar/Navbar";
 import Footer from "../../componentes/Footer/Footer";
 
-import CardApresentacao from "../../componentes/CardApresentacao/CardApresentacao";
-import { apresentacaoList, palestraList, showList } from "../../data/dados";
-import CardShow from "../../componentes/CardShow/CardShow";
-import CardPalestra from "../../componentes/CardPalestra/CardPalestra";
+import { oficinaList } from "../../data/dados";
 
-function TelaTodosCardsPalestra() {
+import CardOficina from "../../componentes/CardOficina/CardOficina";
 
+function TelaTodosCardsOficina() {
   
   return (
 
-    <>      
+    <>     
 
       <Navbar />
 
       <main className="mainTelaStandTodos">
 
-        <h1 className="titulo titleApresent">Palestras</h1>
+        <h1 className="titulo titleApresent">Oficinas</h1>
 
         <div className="containerTelaTodosCards">
 
-              {palestraList.map((item) => (
+              {oficinaList.map((item) => (
                 
-                <CardPalestra
+                <CardOficina
 
                     id={item.id}
                     imgSrc={item.imgSrc}
@@ -36,11 +34,9 @@ function TelaTodosCardsPalestra() {
                     palestranteNome={item.palestranteNome}
                     local={item.local}
                     data={item.data}
-                    horario={item.horario}                  
+                    horario={item.horario}               
                 
-                
-                />
-                       
+                />                      
 
               
               ))}
@@ -61,4 +57,4 @@ function TelaTodosCardsPalestra() {
 
 };
 
-export default TelaTodosCardsPalestra;
+export default TelaTodosCardsOficina;

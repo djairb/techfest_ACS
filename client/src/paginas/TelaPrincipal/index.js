@@ -20,6 +20,7 @@ import StandSection from "../../componentes/StandSection/StandSection";
 import ApresentacaoSection from "../../componentes/ApresentacaoSection/ApresentacaoSection";
 import ShowSection from "../../componentes/ShowSection/ShowSection";
 import PalestraSection from "../../componentes/PalestraSection/PalestraSection";
+import OficinaSection from "../../componentes/OficinaSection/OficinaSection";
 
 
 function TelaPrincipal() {
@@ -44,6 +45,19 @@ function TelaPrincipal() {
 
         <MainHome />
 
+        <PalestraSection
+
+          title="Palestras"
+        
+        />
+
+        <OficinaSection
+
+          title="Oficinas"
+        
+        />        
+       
+
         <StandSection
 
           title="Stands"
@@ -63,14 +77,7 @@ function TelaPrincipal() {
 
           title="Shows"
         
-        />
-
-         <PalestraSection
-
-          title="Palestras"
-        
-        />       
-       
+        />      
 
 
         <CardLocation
