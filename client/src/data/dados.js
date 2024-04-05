@@ -342,8 +342,8 @@ export const gameList = [
     titulo: "1ª COPA FREEFIRE - CONEXÃO SOCIAL",
     descricao:"Prepare-se para a adrenalina tomar conta da Feira de Tecnologia! Venha participar da 1ª COPA FREEFIRE e viva a emoção de um campeonato profissional. Mostre suas habilidades no jogo e dispute prêmios incríveis. <br> Seja você um jogador experiente ou iniciante, a COPA FREEFIRE é para você. Inscreva-se agora e faça parte da história!",
     local: "Praça Maria Aurora - Centro",
-    data:"24/25 de Abril",
-    horario:"14h",
+    data:"24 e 25 de Abril",
+    horario:"08h00 e 14h00",
   },
   {
     id: 2,
@@ -351,7 +351,7 @@ export const gameList = [
     titulo: "LIGA GAMER DE FUTEBOL - FIFA",
     descricao:"A Feira de Tecnologia vai sediar um campeonato emocionante que colocará suas habilidades à prova. Dispute partidas acirradas, mostre seu talento e conquiste prêmios incríveis. <br> Seja você um jogador casual ou um pro player, a LIGA GAMER DE FUTEBOL - FIFA é para você. Venha viver a emoção do futebol virtual e faça parte da história! Inscreva-se agora e prepare-se para a grande final!",
     local: "Praça Maria Aurora - Centro",
-    data:"24/25 de Abril",
-    horario:"14h",
+    data:"24 e 25 de Abril",
+    horario:"08h00 e 14h00",
   }
 ];
