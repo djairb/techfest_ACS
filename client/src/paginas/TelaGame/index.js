@@ -55,6 +55,8 @@ function TelaGame() {
 
           <p>{objetoStand.descricao}</p>
 
+          <p>{objetoStand.local} • {objetoStand.data}, às {objetoStand.horario} </p>
+
         </div>       
 
         <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button>

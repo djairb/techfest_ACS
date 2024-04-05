@@ -39,6 +39,8 @@ function Navbar(){
 
                 <Link to="/tela-todos-stands">Stands</Link>
 
+                <Link to="/tela-todos-game">Disputas de Games</Link>
+
                 <Link to="/tela-todos-apresentacao">Apresentações Culturais</Link>
 
                 <Link to="/tela-todos-show">Shows</Link>               

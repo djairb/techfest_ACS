@@ -39,7 +39,10 @@ function TelaTodosCardsStand() {
                     id={item.id}
                     imgSrc={item.imgSrc}
                     titulo={item.titulo}
-                    subtitulo={item.subtitulo}                            
+                    subtitulo={item.subtitulo}
+                    local={item.local}
+                    data={item.data}
+                    horario={item.horario}                              
                 />
                 
 
