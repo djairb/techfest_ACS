@@ -16,6 +16,7 @@ import TelaOficina from "../paginas/TelaOficina";
 import TelaTodosCardsOficina from "../paginas/TelaTodosCardsOficina";
 import TelaGame from "../paginas/TelaGame";
 import TelaTodosCardsGame from "../paginas/TelaTodosCardsGame";
+import TelaTodosCardsLazer from "../paginas/TelaTodosCardsLazer";
 
 const Rotas = () => (
   <HashRouter>
@@ -34,7 +35,8 @@ const Rotas = () => (
       <Route exact path='/tela-oficina' element={<TelaOficina />} />
       <Route exact path='/tela-todos-oficina' element={<TelaTodosCardsOficina />} />
       <Route exact path='/tela-game' element={<TelaGame />} />
-      <Route exact path='/tela-todos-game' element={<TelaTodosCardsGame />} />     
+      <Route exact path='/tela-todos-game' element={<TelaTodosCardsGame />} />
+      <Route exact path='/tela-todos-lazer' element={<TelaTodosCardsLazer />} />     
 
 
 

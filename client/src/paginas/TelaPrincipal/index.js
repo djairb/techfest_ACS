@@ -22,6 +22,7 @@ import ShowSection from "../../componentes/ShowSection/ShowSection";
 import PalestraSection from "../../componentes/PalestraSection/PalestraSection";
 import OficinaSection from "../../componentes/OficinaSection/OficinaSection";
 import GameSection from "../../componentes/GameSection/GameSection";
+import LazerSection from "../../componentes/LazerSection/LazerSection";
 
 
 function TelaPrincipal() {
@@ -61,8 +62,7 @@ function TelaPrincipal() {
 
         <StandSection
 
-          title="Stands"
-        
+          title="Exposições em Stands"        
         
         />
 
@@ -84,6 +84,15 @@ function TelaPrincipal() {
         <ShowSection
 
           title="Shows"
+        
+        />
+
+        <LazerSection
+
+          title="Atividades de esporte, lazer e 
+          cidadania"
+        
+        
         
         />      
 

@@ -41,9 +41,7 @@ function Navbar(){
 
                 <Link to="/tela-todos-apresentacao">Apresentações Culturais</Link>
 
-                <Link to="/tela-todos-show">Shows</Link>
-
-                
+                <Link to="/tela-todos-show">Shows</Link>               
 
                 
         

@@ -227,7 +227,7 @@ export const showList = [
 
   {
     id: 1,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
     nomeArtista: "Cayke João",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
@@ -235,7 +235,7 @@ export const showList = [
   },
   {
     id: 2,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
     nomeArtista: "Alexsandra Santana",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
@@ -243,7 +243,7 @@ export const showList = [
   },
   {
     id: 3,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
     nomeArtista: "DJ Dennys",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
@@ -251,7 +251,7 @@ export const showList = [
   },
   {
     id: 4,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
     nomeArtista: "Adalberto Santos",
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
@@ -259,7 +259,7 @@ export const showList = [
   },
   {
     id: 5,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
     nomeArtista: "Show da banda N’Zambi – Duas Décadas de Reggae",
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
@@ -354,4 +354,27 @@ export const gameList = [
     data:"24 e 25 de Abril",
     horario:"08h00 e 14h00",
   }
+];
+
+export const lazerList = [
+
+  {
+    id: 1,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212235&authkey=%21ADyKADXvXZjZT4o",
+    titulo: "Esporte, Lazer e Cidania",
+    subtitulo: "Futmesa - Zumba - Pula Corda - Amarelinha Africana - Cabo de Guerra - Coelho Sai da Toca - Dentro e Fora - Jogo da Velha - Transporte de Bambolê - Jogos Cooperativos",
+    local: "Praça Maria Aurora - Centro",
+    data: "24 e 25 de Abril",
+    horario: "08h00 e 14h00"
+  },
+  {
+    id: 2,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212235&authkey=%21ADyKADXvXZjZT4o",
+    titulo: "Aulão de Dança",
+    subtitulo: "Org: Centro de Hidroginástica da Conexão Social, Academia da Saúde, Academia Top Fitness, Academia Strong, Academia Geração Saúde e a Academia Extremos",
+    local: "Praça Maria Aurora - Centro",
+    data: "24 de Abril",
+    horario: "18h00"
+  }    
+
 ];

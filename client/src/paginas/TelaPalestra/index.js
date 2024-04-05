@@ -58,11 +58,11 @@ function TelaPalestra() {
 
           <div className="palestranteContainer">
 
-            <div className="divImagem">
+            {/* <div className="divImagem">
 
               <img className="palestranteImagem" src={objetoStand.palestranteImgSrc} />
 
-            </div>            
+            </div>             */}
 
             <div className="palestranteDados">
 
@@ -77,12 +77,12 @@ function TelaPalestra() {
           </div>
 
           <div className="palestranteContainer">
-
+{/* 
             <div className="divImagem">
 
               <img className="palestranteImagem" src={objetoStand.mediadoraImgSrc} />
 
-            </div>            
+            </div>             */}
 
             <div className="palestranteDados">
 

@@ -57,11 +57,11 @@ function TelaOficina() {
 
           <div className="palestranteContainer">
 
-            <div className="divImagem">
+            {/* <div className="divImagem">
 
               <img className="palestranteImagem" src={objetoStand.palestranteImgSrc} />
 
-            </div>            
+            </div>             */}
 
             <div className="palestranteDados">
 
