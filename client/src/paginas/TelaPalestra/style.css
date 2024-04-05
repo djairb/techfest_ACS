@@ -74,8 +74,8 @@
 .palestranteDados h2{
     color: var(--verdeClaro);
     font-size: 40px;
+    margin: 15px 0;
 }
-
 
 
 .mainTelaPalestraTodos {
@@ -202,7 +202,7 @@
 
 .botaoInscrever {
 
-    margin: 10px 0 30px 0;
+    margin: 30px 0 30px 0;
 
     width: 130px;
     text-align: center;
@@ -238,8 +238,7 @@
     .standTexto {
         height: 100vh;
     }
-
-    
+ 
 
 
     .containerEvento {

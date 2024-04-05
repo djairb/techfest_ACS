@@ -66,6 +66,10 @@
     text-align: center;
 }
 
+.standTexto h2{
+    text-align: center;
+}
+
 .standTexto p {
     width: 90%;
     text-align: justify;
@@ -147,7 +151,7 @@
 
 .botaoInscrever {
 
-    margin: 10px 0 30px 0;
+    margin: 30px 0 30px 0;
 
     width: 130px;
     text-align: center;

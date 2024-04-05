@@ -57,9 +57,8 @@ function TelaPrincipal() {
 
           title="Oficinas"
         
-        />        
+        />     
        
-
         <StandSection
 
           title="Exposições em Stands"        
@@ -70,7 +69,6 @@ function TelaPrincipal() {
 
           title="Disputa de Games"
         
-        
         />
 
 
@@ -79,7 +77,6 @@ function TelaPrincipal() {
           title="Apresentações Culturais"
         
         />
-
 
         <ShowSection
 

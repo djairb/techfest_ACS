@@ -196,7 +196,7 @@
 
 .botaoInscrever {
 
-    margin: 10px 0 30px 0;
+    margin: 30px 0 30px 0;
 
     width: 130px;
     text-align: center;
@@ -224,13 +224,17 @@
 
 
 
-    .mainTelaPalestra img {
+    .mainTelaPalestra img, .mainTelaOficina img {
 
         height: auto;
     }
 
     .standTexto {
         height: 100vh;
+    }
+
+    .standTextoPalestra{
+        width: 97%;
     }
 
     
