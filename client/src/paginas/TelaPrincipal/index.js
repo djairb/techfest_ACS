@@ -18,6 +18,8 @@ import MainHome from "../../componentes/MainHome/MainHome";
 import Apoio from "../../componentes/apoio/Apoio";
 import StandSection from "../../componentes/StandSection/StandSection";
 import ApresentacaoSection from "../../componentes/ApresentacaoSection/ApresentacaoSection";
+import ShowSection from "../../componentes/ShowSection/ShowSection";
+import PalestraSection from "../../componentes/PalestraSection/PalestraSection";
 
 
 function TelaPrincipal() {
@@ -54,7 +56,21 @@ function TelaPrincipal() {
 
           title="Apresentações Culturais"
         
+        />
+
+
+        <ShowSection
+
+          title="Shows"
+        
+        />
+
+         <PalestraSection
+
+          title="Palestras"
+        
         />       
+       
 
 
         <CardLocation

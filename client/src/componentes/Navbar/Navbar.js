@@ -28,12 +28,19 @@ function Navbar(){
 
     return (
 
-        <header>
-
-            
+        <header>           
 
             <Link to="/"><img  src={logo} alt="logo-techFest" /></Link>
              <nav ref={navRef}>
+
+
+                <Link to="/tela-todos-stands">Stands</Link>
+
+                <Link to="/tela-todos-apresentacao">Apresentações Culturais</Link>
+
+                <Link to="/tela-todos-show">Shows</Link>
+
+                
         
                 <button className= "nav-btn nav-close-btn" onClick={showNavBar}>
                     <FaTimes/>                

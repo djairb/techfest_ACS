@@ -1,27 +1,43 @@
-import './cardPalestra.css'
+import './CardPalestra.css'
+import { Link } from 'react-router-dom';
 
+import { useNavigate } from 'react-router-dom';
 
 function CardPalestra(props){
 
+    
+    const navigate = useNavigate();
+
+    const eventoDados = {
+
+        id: props.id
+    //sei onde buscar em tela evento o evento em dados.js pra carregar na pagina
+    }   
+
+
+    const navegarPagina = () =>{
+
+        navigate('/tela-palestra', { state: eventoDados });
+    }
+
     return (
+        <div class="cardStand">
 
-        <div class="cardApresent">
+            <img src={props.imgSrc} />
 
-            <img className="imgSlider" src={props.imgSrc} />
-
-            <div className='apresentacaoTexto'>
-
-
+            <div>                
+           
                 <h1>{props.titulo}</h1>
 
-                <p>Local: {props.local}</p>
+                <h2>{props.palestranteNome}</h2>
 
-                <p>Horario: {props.horario}</p>
-
-
+                <p>{props.local} • {props.data}, às {props.horario} </p>
 
             </div>
             
+            
+
+            <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>
             
             
         </div>

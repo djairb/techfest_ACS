@@ -221,3 +221,78 @@ export const apresentacaoList = [
   }
 
 ];
+
+
+export const showList = [
+
+  {
+    id: 1,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    nomeArtista: "Cayke João",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 2,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    nomeArtista: "Alexsandra Santana",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 3,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    nomeArtista: "DJ Dennys",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 4,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    nomeArtista: "Adalberto Santos",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  },
+  {
+    id: 5,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+    nomeArtista: "Banda N'zambi",
+    local: "Palco",
+    data:"25 de Abril",
+    horario:"10 da Manhã"
+  }
+  
+
+];
+
+export const palestraList = [
+
+  {
+    id: 1,
+    imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212201&authkey=%21ALv-sGdwbx9dBKo",
+    titulo: "ROBOLIVRE - como a Tecnologia está Transformando o nosso Mundo?",
+    descricao: "Descubra como as últimas inovações em inteligência artificial, robótica, biotecnologia e nanotecnologia estão revolucionando a saúde, educação, trabalho, meio ambiente e muito mais. Participe de um debate interativo com especialistas e prepare-se para o futuro da tecnologia!",
+    local: "Auditório - CTACS",
+    data:"23 de Abril",
+    horario:"08h às 11h",
+    palestranteNome:"Henrique Foresti",
+    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212216&authkey=%21ABYmtT7h9J9Z8No",
+    palestranteFormacao:"Professor Mineiro leciona na CESAR School, é bacharel em Ciências da Computação e tem como propósito realizar Transformação Social com Cultura, Arte e Tecnologia. Lidera o Garagino - time de pesquisas em Computação Física e já atuou em grandes empresas de tecnologia executando importantes projetos de inovação. Um dos destaques de sua carreira é a criação da plataforma Robolivre, que tem revolucionado o cenário da tecnologia.",
+    mediadoraNome:"Andréa Luz",
+    mediadoraImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212203&authkey=%21AF4yhCpbiiHEWSA",
+    mediadoraFormacao:"Mestra em Ciências da Linguagem (UNICAP), Especialista em Neurociência, Psicologia Positiva e Mindfulness (PUCPR) e Especialista em Design Instrucional (SENAC SP). Atua como Analista Educacional Pleno, na CESAR School, em Projetos de Educação, Inovação e Tecnologias, com foco em Letramentos Digitais. É pesquisadora na área de Neurociência e sua relação com os processos cognitivos da aprendizagem e Psicanalista membro da Associação Brasileira de Filosofia e Psicanálise de São Paulo (ABRAFP/SP)."
+  },
+
+
+
+
+
+
+
+
+
+];

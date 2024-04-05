@@ -42,7 +42,7 @@ function StandSection(props) {
 
             <Swiper
 
-                slidesPerView={3}
+                slidesPerView={4}
 
                 style={{
 

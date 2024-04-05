@@ -1,4 +1,4 @@
-import "./PalestraSection.css";
+import "./ShowSection.css";
 
 import { register } from 'swiper/element/bundle';
 
@@ -14,29 +14,24 @@ import 'swiper/css/scrollbar';
 
 import { EffectCoverflow } from 'swiper/modules';
 
-import {apresentacaoList, palestraList} from "../../data/dados";
+import {showList} from "../../data/dados";
 
 
 import { useNavigate } from 'react-router-dom';
-import CardStand from "../CardStand/CardStand";
-import CardApresentacao from "../CardApresentacao/CardApresentacao";
-import CardPalestra from "../CardPalestra/CardPalestra";
+
+import CardShow from "../CardShow/CardShow";
 
 
 register();
 
-function PalestraSection(props) {
+function ShowSection(props) {
 
     const navigate = useNavigate();
 
-    const eventoDados = {
-
-        tipo: "apresentacao"
-    }
-
+  
     const abrirPaginaTodos = () =>{
         
-        navigate('/tela-todos-apresentacao', { state: eventoDados });
+        navigate('/tela-todos-show');
 
     }
 
@@ -44,7 +39,8 @@ function PalestraSection(props) {
 
         <section>
 
-            <h1 className="titulo">{props.title}</h1>            
+            <h1 className="titulo">{props.title}</h1>
+            
 
             <Swiper
 
@@ -80,16 +76,15 @@ function PalestraSection(props) {
                 navigation
                 className="swiperMaster"             
             >
-                {palestraList.map((item) => (
+                {showList.map((item) => (
 
                     <SwiperSlide key={item.id}>                        
                                                                   
-                        <CardPalestra
+                        <CardShow
 
                             id={item.id}
                             imgSrc={item.imgSrc}
-                            titulo={item.titulo}
-                            palestranteNome={item.palestranteNome}
+                            nomeArtista={item.nomeArtista}
                             local={item.local}
                             data={item.data}
                             horario={item.horario}                 
@@ -110,4 +105,4 @@ function PalestraSection(props) {
     );
 }
 
-export default PalestraSection;
+export default ShowSection;
