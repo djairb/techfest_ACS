@@ -73,6 +73,7 @@ section {
     color: var(--verdeClaro);
     border-bottom: 2px solid var(--verdeClaro);
     padding-bottom: 10px;
+    text-align: center;
 
 
 }
