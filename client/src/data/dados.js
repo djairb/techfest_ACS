@@ -170,54 +170,54 @@ export const apresentacaoList = [
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Capoeira União da Bahia",
     artista: "Mestre Vermelho",
-    local: "Palco",
+    local: "Praça Maria Aurora - Centro",
     data:"25 de Abril",
-    horario:"10 da Manhã"
+    horario:"15h"
   },
   {
     id: 2,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Cavalo Marinho Boi Teimoso",
     artista: "Mestre Borges Lucas",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data:"24 de Abril",
+    horario:"15h"
   },
   {
     id: 3,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Ciranda Caboclo",
     artista: "Mestre Josivaldo Caboclo",
-    local: "Palco",
+    local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
-    horario: "10 da Manhã"
+    horario: "17h30"
   },
   {
     id: 4,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Grupo Teatral do Projeto Tou Ligado",
     artista: "Geração Futuro",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data: "24 de Abril",
+    horario: "16h30"
   },
   {
     id: 5,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Grupo Teatral “Quando a velhice chegar” do Projeto Comunidade Meu Lugar",
     artista: "Cedili",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data: "25 de Abril",
+    horario: "08h00"
   },
   {
     id: 6,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Maracatu De Baque Virado",
     artista: "Centro Cultural Raio De Luz",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "PERGUNTAR A PEDRO",
+    data:"PERGUNTAR A PEDRO",
+    horario:"PERGUNTAR A PEDRO"
   }
 
 ];
@@ -229,41 +229,41 @@ export const showList = [
     id: 1,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     nomeArtista: "Cayke João",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data:"24 de Abril",
+    horario:"08h00"
   },
   {
     id: 2,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     nomeArtista: "Alexsandra Santana",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data:"24 de Abril",
+    horario:"10h00"
   },
   {
     id: 3,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     nomeArtista: "DJ Dennys",
-    local: "Palco",
-    data:"25 de Abril",
-    horario:"10 da Manhã"
+    local: "Praça Maria Aurora - Centro",
+    data:"24 de Abril",
+    horario:"17h00"
   },
   {
     id: 4,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     nomeArtista: "Adalberto Santos",
-    local: "Palco",
+    local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
-    horario:"10 da Manhã"
+    horario:"10h00"
   },
   {
     id: 5,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
-    nomeArtista: "Banda N'zambi",
-    local: "Palco",
+    nomeArtista: "Show da banda N’Zambi – Duas Décadas de Reggae",
+    local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
-    horario:"10 da Manhã"
+    horario:"16h30"
   }
   
 
@@ -278,7 +278,7 @@ export const palestraList = [
     descricao: "Descubra como as últimas inovações em inteligência artificial, robótica, biotecnologia e nanotecnologia estão revolucionando a saúde, educação, trabalho, meio ambiente e muito mais. Participe de um debate interativo com especialistas e prepare-se para o futuro da tecnologia!",
     local: "Auditório - CTACS",
     data:"23 de Abril",
-    horario:"08h às 11h",
+    horario:"08h30 às 11h",
     palestranteNome:"Henrique Foresti",
     palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212206&authkey=%21AGlSqJoc4_tEGGA",
     palestranteFormacao:"Professor Mineiro leciona na CESAR School, é bacharel em Ciências da Computação e tem como propósito realizar Transformação Social com Cultura, Arte e Tecnologia. Lidera o Garagino - time de pesquisas em Computação Física e já atuou em grandes empresas de tecnologia executando importantes projetos de inovação. Um dos destaques de sua carreira é a criação da plataforma Robolivre, que tem revolucionado o cenário da tecnologia.",
@@ -311,9 +311,9 @@ export const oficinaList = [
     imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212202&authkey=%21ADnXMmdSsO8WiGA",
     titulo: "Descomplicando a Fotografia!",
     descricao: "Aprenda tudo sobre sua câmera, domine composição e iluminação, explore técnicas avançadas e edite como um profissional. Ideal para iniciantes, amadores e entusiastas, a oficina oferece aulas teóricas e práticas para você aprender e se divertir. Capture momentos inesquecíveis!",
-    local: "Sala 01 - CTACS",
+    local: "CTACS - Rua Projetada A, sem número, Bairro Salinas",
     data:"23 de Abril",
-    horario:"13h30 às 16h30",
+    horario:"08h30 às 11h00",
     palestranteNome:"Mateus Ferreira",
     palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212219&authkey=%21AMEKW2fX7a7Ja5c",
     palestranteFormacao:"Graduando em Publicidade e Propaganda na Universidade Estácio de Sá e técnico em design gráfico pele Escola Técnica Estadual. Trabalha com designer gráfico na Conexão Social, Jornalista no Voz de Pernambuco e Diretor de imagem na Siga Comunicação."
@@ -323,7 +323,7 @@ export const oficinaList = [
     imgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212202&authkey=%21ADnXMmdSsO8WiGA",
     titulo: "Dominância da Câmera e Desenvolvimento Básico de Edição de Vídeos no Celular",
     descricao: "Na oficina DOMINÂNCIA DA CÂMERA E DESENVOLVIMENTO BÁSICO DE EDIÇÃO DE VÍDEOS NO CELULAR, você vai aprender a filmar como um profissional e editar seus vídeos como um expert, tudo com seu smartphone. Domine técnicas de filmagem, aprenda noções de edição e crie vídeos incríveis para suas redes sociais ou YouTube. A oficina oferece aulas teóricas e práticas para você aprender e se divertir. Inscreva-se agora e domine a arte de criar vídeos!",
-    local: "Sala 02 - CTACS",
+    local: "CTACS - Rua Projetada A, sem número, Bairro Salinas",
     data:"23 de Abril",
     horario:"13h30 às 16h30",
     palestranteNome:"José Willame e Melquiades Alex",
@@ -331,4 +331,27 @@ export const oficinaList = [
     palestranteFormacao:"José e Melquiades tem uma vasta experiência na área de edição de vídeos e possuem grande conhecimento nos mais avançados softwares de edição e composição. Nesta oficina, passarão aos expectadores as bases para se conseguir avançar nos métodos e técnicas da fotografia e edição."
   }
 
+];
+
+
+export const gameList = [
+
+  {
+    id: 1,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212234&authkey=%21AHVi2J6o35x4B44",
+    titulo: "1ª COPA FREEFIRE - CONEXÃO SOCIAL",
+    descricao:"Prepare-se para a adrenalina tomar conta da Feira de Tecnologia! Venha participar da 1ª COPA FREEFIRE e viva a emoção de um campeonato profissional. Mostre suas habilidades no jogo e dispute prêmios incríveis. <br> Seja você um jogador experiente ou iniciante, a COPA FREEFIRE é para você. Inscreva-se agora e faça parte da história!",
+    local: "Praça Maria Aurora - Centro",
+    data:"24/25 de Abril",
+    horario:"14h",
+  },
+  {
+    id: 2,
+    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212234&authkey=%21AHVi2J6o35x4B44",
+    titulo: "LIGA GAMER DE FUTEBOL - FIFA",
+    descricao:"A Feira de Tecnologia vai sediar um campeonato emocionante que colocará suas habilidades à prova. Dispute partidas acirradas, mostre seu talento e conquiste prêmios incríveis. <br> Seja você um jogador casual ou um pro player, a LIGA GAMER DE FUTEBOL - FIFA é para você. Venha viver a emoção do futebol virtual e faça parte da história! Inscreva-se agora e prepare-se para a grande final!",
+    local: "Praça Maria Aurora - Centro",
+    data:"24/25 de Abril",
+    horario:"14h",
+  }
 ];

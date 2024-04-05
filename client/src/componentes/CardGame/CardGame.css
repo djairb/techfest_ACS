@@ -1,79 +1,65 @@
-.cardApresent {
+.cardStand {
 
 
     border: 1.5px solid #72c000;
     border-radius: 10px;
     margin: 10px;
+
+
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-       
-    
+    flex-basis: 30%;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 350px;
-    height: 330px;
 
-    background-color: #202123;
+    width: 320px;
+
+
+
+
+    background-color: var(--bgDark);
+
 }
 
 
-.cardApresent img {
+.cardStand img {
 
     width: 100%;
-    height: 125px;
+    height: auto;
+
     object-fit: fill;
     object-position: top;
-    border-radius: 2px;
+    border-radius: 10px;
 
-
-    border-bottom: 2px solid var(--verdeClaro);
 
 
 }
 
-.cardApresent div, .cardExpo div {
+.cardStand div {
+
+    padding: 15px;
     flex-grow: 1;
-}
-
-.apresentacaoTexto {
-
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 30px;
-
-
-
-}
-
-.apresentacaoTexto h1 {
-
-    color: var(--verdeClaro);
-    font-size: 18px;
-
+    align-items: center;
+    gap: 20px;
 
 
 }
 
-.apresentacaoTexto p{
+.cardStand h1 {
 
-    font-size: 20px;
-
-
+    color: #72c000;
+    width: 96%;
 }
 
-
-.oxe {
-
-    color: red;
-}
-
-.cardApresent p {
+.cardStand p,
+.cardStand h2 {
 
     color: white;
-
 }
 
 .botaoEvento {
@@ -87,6 +73,7 @@
     padding: 12px;
     border-radius: 10px;
     text-decoration: none;
+    border: none;
 
 }
 
@@ -115,14 +102,13 @@
 
 @media only screen and (max-width: 1024px) {
 
-    .cardApresent {
-
-
+    .cardStand {
+        flex-basis: 100%;
         width: 200px;
-        height: 300px;
-
-
+        height: auto;
     }
+
+
 
 
 

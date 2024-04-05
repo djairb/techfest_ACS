@@ -21,6 +21,7 @@ import ApresentacaoSection from "../../componentes/ApresentacaoSection/Apresenta
 import ShowSection from "../../componentes/ShowSection/ShowSection";
 import PalestraSection from "../../componentes/PalestraSection/PalestraSection";
 import OficinaSection from "../../componentes/OficinaSection/OficinaSection";
+import GameSection from "../../componentes/GameSection/GameSection";
 
 
 function TelaPrincipal() {
@@ -61,6 +62,13 @@ function TelaPrincipal() {
         <StandSection
 
           title="Stands"
+        
+        
+        />
+
+        <GameSection
+
+          title="Disputa de Games"
         
         
         />
