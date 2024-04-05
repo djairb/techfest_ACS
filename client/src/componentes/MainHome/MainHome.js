@@ -2,6 +2,8 @@ import './MainHome.css'
 
 import calendario from "../../img/calendar-home.png";
 
+import location from "../../img/location-home.png";
+
 import logoGrande from "../../img/logoGrande.png";
 
 import Typed from 'typed.js';
@@ -11,7 +13,7 @@ import { useEffect, useState } from 'react';
 function MainHome() {
 
 
-    const dataEvento = new Date(2024, 3, 5, 15, 0, 0); // Ano, Mês (0-11), Dia, Hora, Minuto, Segundo -- O mês de março é o número 2 no JavaScript, pois os meses são indexados a partir de 0.
+    const dataEvento = new Date(2024, 3, 23, 8, 0, 0); // Ano, Mês (0-11), Dia, Hora, Minuto, Segundo -- O mês de março é o número 2 no JavaScript, pois os meses são indexados a partir de 0.
 
     // Estado para armazenar a contagem regressiva
     const [contagem, setContagem] = useState({
@@ -50,7 +52,7 @@ function MainHome() {
     }, []);
 
     // Formatar a contagem regressiva
-    const contagemFormatada = `${contagem.dias} dia ${contagem.horas}h, ${contagem.minutos}m e ${contagem.segundos}s`;
+    const contagemFormatada = `${contagem.dias} dias ${contagem.horas}h, ${contagem.minutos}m e ${contagem.segundos}s`;
 
 
 
@@ -74,14 +76,21 @@ function MainHome() {
 
                 <div className='containerTexto'>
 
-                    <h1 id="my-h1">Vem aí o maior <a>Festival de Tecnologia e Inovação</a> da Mata Norte!</h1>
+                    <h1 id="my-h1">Vem aí o maior Festival de Tecnologia e Inovação da Mata Norte!</h1>
                     <div className='icon-date-calendar'>
 
                         <img src={calendario}></img>
-                        <h2>05 de Abril de 2024, <a>15h</a> </h2>
+                        <h2><a>23, 24 e 25</a> de Abril de 2024</h2>
 
                     </div>
-                    <h2>Falta <a>{contagemFormatada}</a> para as incrições!</h2>
+
+                    <div className='icon-date-calendar'>
+
+                        <img src={location}></img>
+                        <h2><a>Lagoa de Itaenga,</a> Pernambuco, Brasil.</h2>
+
+                    </div>
+                    <h2>Faltam <a>{contagemFormatada}</a> para as incrições!</h2>
 
                 </div>
 
