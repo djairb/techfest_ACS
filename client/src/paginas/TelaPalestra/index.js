@@ -50,7 +50,7 @@ function TelaPalestra() {
 
         <img className="imagemMain" src={objetoStand.imgSrc} />
 
-        <div className="standTexto">
+        <div className="standTextoPalestra">
 
           <h1>{objetoStand.titulo}</h1>
 
@@ -65,6 +65,8 @@ function TelaPalestra() {
             </div>            
 
             <div className="palestranteDados">
+
+              <p>Palestrante:</p>
 
               <h2>{objetoStand.palestranteNome}</h2>
 
@@ -83,6 +85,8 @@ function TelaPalestra() {
             </div>            
 
             <div className="palestranteDados">
+
+              <p>Mediador(a):</p>
 
               <h2>{objetoStand.mediadoraNome}</h2>
 

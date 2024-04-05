@@ -29,6 +29,7 @@
     justify-content: center;
     align-items: center;
     gap: 0px;
+    width: 100%;
 
 
 }
@@ -89,11 +90,11 @@
 
 }
 
-.standTexto {
+.standTextoPalestra {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     min-height: 50vh;
     width: 100%;
@@ -105,14 +106,14 @@
 
 }
 
-.standTexto h1 {
+.standTextoPalestra h1 {
     margin-top: 10px;
     color: var(--verdeClaro);
     font-size: 50px;
     text-align: center;
 }
 
-.standTexto p {
+.standTextoPalestra p {
     width: 95%;
     text-align: justify;
     text-align-last: center;
@@ -263,6 +264,11 @@
         width: 95%;
 
 
+    }
+
+    .palestranteContainer{
+
+        flex-direction: column;
     }
 
 
