@@ -38,8 +38,10 @@ function TelaPrincipal() {
   return (
 
     <>   
-    
+
       <main>
+
+        <Navbar/>
 
         <MainHome />
 
