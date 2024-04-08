@@ -184,6 +184,10 @@
         height: auto;
     }
 
+    .mainTelaStand{
+        height: auto;
+    }
+
     .standTexto {
         height: 100vh;
     }

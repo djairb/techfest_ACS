@@ -19,11 +19,25 @@ section {
 
 }
 
+.sectionMain{
+
+  color: var(--fontWhite);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+
+}
+
 
 
 main {
 
-  background-color: #121212;
+  background-image: url('../../img/bg.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
 
 }
 

@@ -269,16 +269,16 @@ export const apresentacaoList = [
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
     horario: "08h00"
-  },
-  {
-    id: 6,
-    imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
-    titulo: "Maracatu De Baque Virado",
-    artista: "Centro Cultural Raio De Luz",
-    local: "PERGUNTAR A PEDRO",
-    data:"PERGUNTAR A PEDRO",
-    horario:"PERGUNTAR A PEDRO"
   }
+  // {
+  //   id: 6,
+  //   imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
+  //   titulo: "Maracatu De Baque Virado",
+  //   artista: "Centro Cultural Raio De Luz",
+  //   local: "PERGUNTAR A PEDRO",
+  //   data:"PERGUNTAR A PEDRO",
+  //   horario:"PERGUNTAR A PEDRO"
+  // }
 
 ];
 

@@ -30,7 +30,7 @@ function Apoio(){
                 </a>
 
                 
-                <a href="https://www.cantupneus.com.br/">
+                <a href="https://www.cantustore.com.br/">
                     <img className="imagem-apoio" src="https://onedrive.live.com/embed?resid=3282EDF418D3DB36%21136&authkey=%21ACLburflDxxrsa0"/>
                 </a>
 

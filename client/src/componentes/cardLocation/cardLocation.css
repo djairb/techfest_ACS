@@ -1,4 +1,4 @@
-iframe{
+.iframeLocalizacao, .iframeInscricao{
 
 
     width:65%;
@@ -11,18 +11,34 @@ iframe{
 }
 
 
+.iframeInscricao{
+    
+    height: 450px;
+    
+}
+
+
 
 @media only screen and (max-width: 1024px) {
 
-    iframe{
+    .iframeLocalizacao{
 
 
         width:90%;
+        height:400px;
         
     
     
     
     }
+
+    .iframeInscricao{
+
+        width: 80%;
+        height: 500px;
+    }
+
+    
     
 
 

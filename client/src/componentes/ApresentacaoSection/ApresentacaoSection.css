@@ -88,6 +88,13 @@ section {
 
 }
 
+.degradeHome{
+    min-width: 1920px;
+    background-image: linear-gradient(to right, var(--verdeEscuro), #00ff00);
+    height: 3px;
+    
+}
+
 @media only screen and (max-width: 1024px) {
 
     .swiperMaster {
@@ -107,6 +114,12 @@ section {
 
 
 
+    }
+
+    .degradeHome{
+        width: 90vw;
+        
+        
     }
 
 

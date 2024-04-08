@@ -70,7 +70,7 @@ function MainHome() {
 
     return (
 
-        <section>
+        <section className='sectionMain'>
 
             <div className='mainHome'>
 

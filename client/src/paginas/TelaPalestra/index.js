@@ -98,11 +98,15 @@ function TelaPalestra() {
 
           <p>Local: {objetoStand.local}, {objetoStand.data}, {objetoStand.horario}.</p>
 
+          <iframe className="iframeInscricao" src="https://docs.google.com/forms/d/e/1FAIpQLSdarQ47NfcNIU59uxMQcKU8TgF-VsxeCflZ-oKZ309eAzt1gg/viewform?embedded=true" frameborder="0">Carregando…</iframe> 
+
           
 
-        </div>       
+        </div>
 
-        <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button>
+              
+
+        {/* <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button> */}
 
 
       </main>
