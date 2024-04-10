@@ -52,12 +52,13 @@ function TelaGame() {
 
           <h1>{objetoStand.titulo}</h1>
 
-
           <p>{objetoStand.descricao}</p>
 
           <p>{objetoStand.local} • {objetoStand.data}, às {objetoStand.horario} </p>
 
-          <iframe className="iframeInscricao" src="https://docs.google.com/forms/d/e/1FAIpQLSdarQ47NfcNIU59uxMQcKU8TgF-VsxeCflZ-oKZ309eAzt1gg/viewform?embedded=true" frameborder="0">Carregando…</iframe> 
+          <p>Faça sua inscrição abaixo:</p>
+
+          <iframe className="iframeInscricao" src={objetoStand.iframeSrc} frameborder="0">Carregando…</iframe> 
 
         </div>       
 
