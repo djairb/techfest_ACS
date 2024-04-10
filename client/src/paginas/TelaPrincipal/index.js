@@ -81,7 +81,7 @@ function TelaPrincipal() {
           title="Shows"
         
         />
-
+{/* 
         <LazerSection
 
           title="Atividades de esporte, lazer e 
@@ -89,7 +89,7 @@ function TelaPrincipal() {
         
         
         
-        />      
+        />       */}
 
 
         <CardLocation

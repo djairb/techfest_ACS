@@ -52,7 +52,7 @@ function MainHome() {
     }, []);
 
     // Formatar a contagem regressiva
-    const contagemFormatada = `${contagem.dias} dias ${contagem.horas}h, ${contagem.minutos}m e ${contagem.segundos}s`;
+    const contagemFormatada = `${contagem.dias} dias, ${contagem.horas} horas, ${contagem.minutos} minutos e ${contagem.segundos} segundos`;
 
 
 
@@ -61,7 +61,7 @@ function MainHome() {
         const typed = new Typed('#my-h1', {
             strings: ['Vem aí o maior Festival de Tecnologia e Inovação da Mata Norte!'],
             typeSpeed: 40,
-            backSpeed: 20,
+            backSpeed: 12,
             loop: true,
         });
 
@@ -76,7 +76,7 @@ function MainHome() {
 
                 <div className='containerTexto'>
 
-                    <h1 id="my-h1">Vem aí o maior Festival de Tecnologia e Inovação da Mata Norte!</h1>
+                    <h1 id="my-h1"></h1>
                     <div className='icon-date-calendar'>
 
                         <img src={calendario}></img>
@@ -90,7 +90,7 @@ function MainHome() {
                         <h2><a>Lagoa de Itaenga,</a> Pernambuco, Brasil.</h2>
 
                     </div>
-                    <h2>Faltam <a>{contagemFormatada}</a> para as incrições!</h2>
+                    <h2>Faltam <a>{contagemFormatada}</a>!</h2>
 
                 </div>
 

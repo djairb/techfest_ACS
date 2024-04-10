@@ -86,7 +86,8 @@ function StandSection(props) {
                             subtitulo={item.subtitulo}
                             local={item.local}
                             data={item.data}
-                            horario={item.horario}                              
+                            horario={item.horario}
+                            stand={item.stand}                              
                         />
 
                     </SwiperSlide>
