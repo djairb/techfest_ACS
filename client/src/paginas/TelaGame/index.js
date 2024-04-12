@@ -58,9 +58,13 @@ function TelaGame() {
 
           <p>Faça sua inscrição abaixo:</p>
 
-          <iframe className="iframeInscricao" src={objetoStand.iframeSrc} frameborder="0">Carregando…</iframe> 
+                    
 
-        </div>       
+        </div>
+
+        <iframe className="iframeInscricao" src={objetoStand.iframeSrc} frameborder="0">Carregando…</iframe> 
+
+               
 
         {/* <button onClick={realizarInscrição} className="botaoInscrever">Se Inscrever</button> */}
 

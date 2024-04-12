@@ -296,7 +296,7 @@ export const apresentacaoList = [
     id: 4,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Grupo Teatral do Projeto Tou Ligado",
-    artista: "Geração Futuro",
+    artista: "ONG. Geração Futuro",
     local: "Praça Maria Aurora - Centro",
     data: "24 de Abril",
     horario: "16h30"
@@ -305,7 +305,7 @@ export const apresentacaoList = [
     id: 5,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
     titulo: "Grupo Teatral “Quando a velhice chegar” do Projeto Comunidade Meu Lugar",
-    artista: "Cedili",
+    artista: "ONG. CEDILI",
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
     horario: "08h00"

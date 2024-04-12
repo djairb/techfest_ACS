@@ -104,7 +104,19 @@ function TelaOficina() {
 
           <p>Local: {objetoStand.local}, {objetoStand.data}, {objetoStand.horario}.</p>
 
-          {/* <iframe className="iframeInscricao" src="https://docs.google.com/forms/d/e/1FAIpQLSdarQ47NfcNIU59uxMQcKU8TgF-VsxeCflZ-oKZ309eAzt1gg/viewform?embedded=true" frameborder="0">Carregando…</iframe>            */}
+          <iframe
+            className="iframeInscricao"
+
+            src="https://docs.google.com/forms/d/e/1FAIpQLSe6XPugdGbRBwGl4tWtDkMo5xqsuGoZ6rVXQKK9ix6mb5gWiA/viewform?embedded=true"
+
+            
+
+            frameborder="0">
+              
+              Carregando…
+            
+            
+          </iframe>
 
         </div>       
 
