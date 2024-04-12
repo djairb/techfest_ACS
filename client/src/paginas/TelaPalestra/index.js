@@ -33,6 +33,14 @@ function TelaPalestra() {
 
   }
 
+  let palestrante = "Palestrante:";
+
+  let palestrantes = "Palestrantes:";
+
+  let mediadora = "Mediadora:";
+
+  let mediador = "Mediador:";
+
 
 
   let objetoStand;
@@ -66,7 +74,7 @@ function TelaPalestra() {
 
           <div className="palestranteDados">
 
-              <p>Palestrante:</p>
+              <p>{objetoStand.numeroPalestrante > 1 ? palestrantes : palestrante}</p>
 
               <div className='divPalestrante'>
 
@@ -96,7 +104,7 @@ function TelaPalestra() {
 
           <div className="palestranteDados">
 
-              <p>Mediador(a):</p>
+              <p>{objetoStand.mediadoraGenero > 0 ? mediador : mediadora}</p>
 
               <div className='divPalestrante'>
 

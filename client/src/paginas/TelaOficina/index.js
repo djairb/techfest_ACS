@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import './style.css';
 
@@ -29,6 +29,11 @@ function TelaOficina() {
   const realizarInscrição = () =>{
 
   }
+
+  let palestrante = "Palestrante:";
+  let palestrantes = "Palestrantes:";
+
+  
 
 
 
@@ -62,7 +67,7 @@ function TelaOficina() {
 
           <div className="palestranteDados">
 
-              <p>Palestrante:</p>
+              <p>{objetoStand.numeroPalestrante > 1 ? palestrantes : palestrante}</p>
 
               <div className="divPalestrante">
 

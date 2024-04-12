@@ -384,7 +384,9 @@ export const palestraList = [
     palestranteFormacao:"Professor Mineiro leciona na CESAR School, é bacharel em Ciências da Computação e tem como propósito realizar Transformação Social com Cultura, Arte e Tecnologia. Lidera o Garagino - time de pesquisas em Computação Física e já atuou em grandes empresas de tecnologia executando importantes projetos de inovação. Um dos destaques de sua carreira é a criação da plataforma Robôlivre, que tem revolucionado o cenário da tecnologia.",
     mediadoraNome:"Andréa Luz",
     mediadoraImgSrc:"andrea",
-    mediadoraFormacao:"Mestra em Ciências da Linguagem (UNICAP), Especialista em Neurociência, Psicologia Positiva e Mindfulness (PUCPR) e Especialista em Design Instrucional (SENAC SP). Atua como Analista Educacional Pleno, na CESAR School, em Projetos de Educação, Inovação e Tecnologias, com foco em Letramentos Digitais. É pesquisadora na área de Neurociência e sua relação com os processos cognitivos da aprendizagem e Psicanalista membro da Associação Brasileira de Filosofia e Psicanálise de São Paulo (ABRAFP/SP)."
+    mediadoraFormacao:"Mestra em Ciências da Linguagem (UNICAP), Especialista em Neurociência, Psicologia Positiva e Mindfulness (PUCPR) e Especialista em Design Instrucional (SENAC SP). Atua como Analista Educacional Pleno, na CESAR School, em Projetos de Educação, Inovação e Tecnologias, com foco em Letramentos Digitais. É pesquisadora na área de Neurociência e sua relação com os processos cognitivos da aprendizagem e Psicanalista membro da Associação Brasileira de Filosofia e Psicanálise de São Paulo (ABRAFP/SP).",
+    numeroPalestrante: 1,
+    mediadoraGenero: 0 
   },
   {
     id: 2,
@@ -399,7 +401,9 @@ export const palestraList = [
     palestranteFormacao:"Lari e Matheus uniram sonho e paixão para criar a Saudade D'ocê. Em 4 meses, com R$ 50, mudaram de vida com vendas inovadoras. O sucesso inspirou a Vendup, que já impactou mais de 800 famílias, ajudando mães e empresárias a viverem seus sonhos. A história deles prova que paixão, trabalho e ferramentas certas levam ao sucesso.",
     mediadoraNome:"Addalaziz de Moura",
     mediadoraImgSrc:"moura",
-    mediadoraFormacao:"Educador Popular, filósofo e escritor, autor da Pedagogia de Apoio ao Desenvolvimento Sustentável - PEADS. Atuou no Campo da Educação Popular na Arquidiocese de Olinda e Recife com Dom Hélder Câmara, na Diocese de Petrolina, fundador do Serviço de Tecnologia Alternativa e Instituto Abdalaziz de Moura."
+    mediadoraFormacao:"Educador Popular, filósofo e escritor, autor da Pedagogia de Apoio ao Desenvolvimento Sustentável - PEADS. Atuou no Campo da Educação Popular na Arquidiocese de Olinda e Recife com Dom Hélder Câmara, na Diocese de Petrolina, fundador do Serviço de Tecnologia Alternativa e Instituto Abdalaziz de Moura.",
+    numeroPalestrante: 2,
+    mediadoraGenero: 1 //1 é homem, 0 é mulher
   }
 
 ];
@@ -416,7 +420,8 @@ export const oficinaList = [
     horario:"08h30",
     palestranteNome:"Mateus Ferreira",
     palestranteImgSrc:"mateus",
-    palestranteFormacao:"Graduando em Publicidade e Propaganda na Universidade Estácio de Sá e técnico em design gráfico pele Escola Técnica Estadual. Trabalha com designer gráfico na Conexão Social, Jornalista no Voz de Pernambuco e Diretor de imagem na Siga Comunicação."
+    palestranteFormacao:"Graduando em Publicidade e Propaganda na Universidade Estácio de Sá e técnico em design gráfico pele Escola Técnica Estadual. Trabalha com designer gráfico na Conexão Social, Jornalista no Voz de Pernambuco e Diretor de imagem na Siga Comunicação.",
+    numeroPalestrante: 1
   },
   {
     id: 2,
@@ -428,7 +433,9 @@ export const oficinaList = [
     horario:"13h30",
     palestranteNome:"José Willame e Melquiades Alex",
     palestranteImgSrc:"jose",
-    palestranteFormacao:"José Willame, filmmaker de 31 anos, cria conteúdo através do celular há mais de 6 anos. Formado no curso Mestre da Edição em 2019, ele capacitou mais de 5 alunos para o mundo da criação de conteúdo digital. Seu intuito é inspirar e capacitar jovens para a criação de conteúdo no mundo digital dos dias de hoje. José trabalha na Prefeitura Municipal do Pauldálio como criador de conteúdo e presta serviços para o Partido Podemos em Pernambuco, além de outras empresas. Igualmente capacitado, Melquiades Alex, 28 anos, 4 anos de experiência como videomaker e a paixão por transformar ideias em curtidas! Cursando faculdade de filmmaker buscando sempre inovar! Além de vários cursos profissionalizante na bagagem voltado para a área de videomaker. Voluntário na Startup Juventude Criativa na área de marketing e gestor da área de vídeos do LAB de favelas."
+    palestranteFormacao:"José Willame, filmmaker de 31 anos, cria conteúdo através do celular há mais de 6 anos. Formado no curso Mestre da Edição em 2019, ele capacitou mais de 5 alunos para o mundo da criação de conteúdo digital. Seu intuito é inspirar e capacitar jovens para a criação de conteúdo no mundo digital dos dias de hoje. José trabalha na Prefeitura Municipal do Paudalho como criador de conteúdo e presta serviços para o Partido Podemos em Pernambuco, além de outras empresas. Igualmente capacitado, Melquiades Alex, 28 anos, 4 anos de experiência como videomaker e a paixão por transformar ideias em curtidas! Cursando faculdade de filmmaker buscando sempre inovar! Além de vários cursos profissionalizante na bagagem voltado para a área de videomaker. Voluntário na Startup Juventude Criativa na área de marketing e gestor da área de vídeos do LAB de favelas.",
+    numeroPalestrante: 2
+
   }
 
 ];
