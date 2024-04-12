@@ -63,6 +63,25 @@
     color: white;
 }
 
+.divCardPalestrante{
+    width: 150px;
+    height: 150px;
+    background-color: #EEEEEE;
+}
+
+
+.divPalestrante{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divPalestrante img{
+    width: 150px;
+}
 
 
 .botaoEvento {

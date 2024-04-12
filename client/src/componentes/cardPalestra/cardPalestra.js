@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
+import henrique from "../../img/palestras/henrique.png";
+
+import mateus from "../../img/palestras/lari-mateus.png";
+
+
 function CardPalestra(props){
 
     
@@ -28,7 +33,22 @@ function CardPalestra(props){
             <div>                
            
                 <h1>{props.titulo}</h1>
+                
+                <img
+                        
+                        src={
 
+                            props.palestranteImgSrc === 'mateus'
+                                ? mateus
+                                : props.palestranteImgSrc === 'henrique'
+                                ? henrique
+                                : ""
+                        }
+
+
+                />
+
+                
                 <h2>{props.palestranteNome}</h2>
 
                 <p>{props.local} • {props.data}, às {props.horario} </p>

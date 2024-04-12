@@ -380,10 +380,10 @@ export const palestraList = [
     data:"23 de Abril",
     horario:"08h30",
     palestranteNome:"Henrique Foresti",
-    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212206&authkey=%21AGlSqJoc4_tEGGA",
+    palestranteImgSrc:"henrique",
     palestranteFormacao:"Professor Mineiro leciona na CESAR School, é bacharel em Ciências da Computação e tem como propósito realizar Transformação Social com Cultura, Arte e Tecnologia. Lidera o Garagino - time de pesquisas em Computação Física e já atuou em grandes empresas de tecnologia executando importantes projetos de inovação. Um dos destaques de sua carreira é a criação da plataforma Robôlivre, que tem revolucionado o cenário da tecnologia.",
     mediadoraNome:"Andréa Luz",
-    mediadoraImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212203&authkey=%21AF4yhCpbiiHEWSA",
+    mediadoraImgSrc:"andrea",
     mediadoraFormacao:"Mestra em Ciências da Linguagem (UNICAP), Especialista em Neurociência, Psicologia Positiva e Mindfulness (PUCPR) e Especialista em Design Instrucional (SENAC SP). Atua como Analista Educacional Pleno, na CESAR School, em Projetos de Educação, Inovação e Tecnologias, com foco em Letramentos Digitais. É pesquisadora na área de Neurociência e sua relação com os processos cognitivos da aprendizagem e Psicanalista membro da Associação Brasileira de Filosofia e Psicanálise de São Paulo (ABRAFP/SP)."
   },
   {
@@ -395,10 +395,10 @@ export const palestraList = [
     data:"23 de Abril",
     horario:"13h30",
     palestranteNome:"Lari e Matheus",
-    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212218&authkey=%21AAFZvsDLkjq79yA",
+    palestranteImgSrc:"mateus",
     palestranteFormacao:"Lari e Matheus uniram sonho e paixão para criar a Saudade D'ocê. Em 4 meses, com R$ 50, mudaram de vida com vendas inovadoras. O sucesso inspirou a Vendup, que já impactou mais de 800 famílias, ajudando mães e empresárias a viverem seus sonhos. A história deles prova que paixão, trabalho e ferramentas certas levam ao sucesso.",
     mediadoraNome:"Addalaziz de Moura",
-    mediadoraImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212217&authkey=%21AFi2klKbQCCg43M",
+    mediadoraImgSrc:"moura",
     mediadoraFormacao:"Educador Popular, filósofo e escritor, autor da Pedagogia de Apoio ao Desenvolvimento Sustentável - PEADS. Atuou no Campo da Educação Popular na Arquidiocese de Olinda e Recife com Dom Hélder Câmara, na Diocese de Petrolina, fundador do Serviço de Tecnologia Alternativa e Instituto Abdalaziz de Moura."
   }
 

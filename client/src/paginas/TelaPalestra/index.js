@@ -11,6 +11,14 @@ import Navbar from "../../componentes/Navbar/Navbar";
 import { palestraList } from "../../data/dados";
 import Footer from "../../componentes/Footer/Footer";
 
+import henrique from "../../img/palestras/henrique.png";
+
+import andrea from "../../img/palestras/andrea.png";
+
+import mateus from "../../img/palestras/lari-mateus.png";
+
+import moura from "../../img/palestras/moura.png";
+
 function TelaPalestra() {
 
 
@@ -56,37 +64,57 @@ function TelaPalestra() {
 
           <p>{objetoStand.descricao}</p>
 
-          <div className="palestranteContainer">
-
-            {/* <div className="divImagem">
-
-              <img className="palestranteImagem" src={objetoStand.palestranteImgSrc} />
-
-            </div>             */}
-
-            <div className="palestranteDados">
+          <div className="palestranteDados">
 
               <p>Palestrante:</p>
+
+              <div className='divPalestrante'>
+
+                <img
+
+    
+                  src={
+
+                      objetoStand.palestranteImgSrc === 'mateus'
+                          ? mateus
+                          : objetoStand.palestranteImgSrc === 'henrique'
+                          ? henrique
+                          : ""
+                  }
+
+
+                />
+              </div>
+
+
 
               <h2>{objetoStand.palestranteNome}</h2>
 
               <p>{objetoStand.palestranteFormacao}</p>
 
-            </div>
-
           </div>
 
-          <div className="palestranteContainer">
-{/* 
-            <div className="divImagem">
-
-              <img className="palestranteImagem" src={objetoStand.mediadoraImgSrc} />
-
-            </div>             */}
-
-            <div className="palestranteDados">
+          <div className="palestranteDados">
 
               <p>Mediador(a):</p>
+
+              <div className='divPalestrante'>
+
+                <img
+
+    
+                  src={
+
+                      objetoStand.mediadoraImgSrc === 'andrea'
+                          ? andrea
+                          : objetoStand.mediadoraImgSrc === 'moura'
+                          ? moura
+                          : ""
+                  }
+
+
+                />
+              </div>
 
               <h2>{objetoStand.mediadoraNome}</h2>
 
@@ -94,7 +122,9 @@ function TelaPalestra() {
 
             </div>
 
-          </div>
+         
+
+          
 
           <p>Local: {objetoStand.local}, {objetoStand.data}, {objetoStand.horario}.</p>
 
