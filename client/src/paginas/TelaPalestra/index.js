@@ -114,6 +114,7 @@ function TelaPalestra() {
 
 
                 />
+                
               </div>
 
               <h2>{objetoStand.mediadoraNome}</h2>

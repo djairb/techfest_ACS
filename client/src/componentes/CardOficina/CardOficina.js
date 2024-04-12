@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
+
+import jose from "../../img/oficinas/jose.png";
+
+import mateus from "../../img/oficinas/mateus.png";
+
+
 function CardOficina(props){
 
     
@@ -28,6 +34,18 @@ function CardOficina(props){
             <div>                
            
                 <h1>{props.titulo}</h1>
+
+                <img
+                       
+                    src={
+
+                        props.palestranteImgSrc === 'mateus'
+                            ? mateus
+                            : props.palestranteImgSrc === 'jose'
+                            ? jose
+                            : ""
+                    }
+                />
 
                 <h2>{props.palestranteNome}</h2>
 

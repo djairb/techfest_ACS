@@ -11,6 +11,11 @@ import Navbar from "../../componentes/Navbar/Navbar";
 import { oficinaList, palestraList } from "../../data/dados";
 import Footer from "../../componentes/Footer/Footer";
 
+import jose from "../../img/oficinas/jose.png";
+
+import mateus from "../../img/oficinas/mateus.png";
+
+
 function TelaOficina() {
 
 
@@ -55,17 +60,32 @@ function TelaOficina() {
 
           <p>{objetoStand.descricao}</p>
 
-          <div className="palestranteContainer">
-
-            {/* <div className="divImagem">
-
-              <img className="palestranteImagem" src={objetoStand.palestranteImgSrc} />
-
-            </div>             */}
-
-            <div className="palestranteDados">
+          <div className="palestranteDados">
 
               <p>Palestrante:</p>
+
+              <div className="divPalestrante">
+
+              <img
+                       
+                  src={
+
+                      objetoStand.palestranteImgSrc === 'mateus'
+                          ? mateus
+                          : objetoStand.palestranteImgSrc === 'jose'
+                          ? jose
+                          : ""
+                  }
+     
+     
+              />
+
+
+
+
+              </div>
+
+              
 
               <h2>{objetoStand.palestranteNome}</h2>
 
@@ -73,7 +93,7 @@ function TelaOficina() {
 
             </div>
 
-          </div>
+          
 
         
 

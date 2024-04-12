@@ -415,7 +415,7 @@ export const oficinaList = [
     data:"23 de Abril",
     horario:"08h30",
     palestranteNome:"Mateus Ferreira",
-    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212219&authkey=%21AMEKW2fX7a7Ja5c",
+    palestranteImgSrc:"mateus",
     palestranteFormacao:"Graduando em Publicidade e Propaganda na Universidade Estácio de Sá e técnico em design gráfico pele Escola Técnica Estadual. Trabalha com designer gráfico na Conexão Social, Jornalista no Voz de Pernambuco e Diretor de imagem na Siga Comunicação."
   },
   {
@@ -427,8 +427,8 @@ export const oficinaList = [
     data:"23 de Abril",
     horario:"13h30",
     palestranteNome:"José Willame e Melquiades Alex",
-    palestranteImgSrc:"https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212219&authkey=%21AMEKW2fX7a7Ja5c",
-    palestranteFormacao:"José e Melquiades tem uma vasta experiência na área de edição de vídeos e possuem grande conhecimento nos mais avançados softwares de edição e composição. Nesta oficina, passarão aos expectadores as bases para se conseguir avançar nos métodos e técnicas da fotografia e edição."
+    palestranteImgSrc:"jose",
+    palestranteFormacao:"José Willame, filmmaker de 31 anos, cria conteúdo através do celular há mais de 6 anos. Formado no curso Mestre da Edição em 2019, ele capacitou mais de 5 alunos para o mundo da criação de conteúdo digital. Seu intuito é inspirar e capacitar jovens para a criação de conteúdo no mundo digital dos dias de hoje. José trabalha na Prefeitura Municipal do Pauldálio como criador de conteúdo e presta serviços para o Partido Podemos em Pernambuco, além de outras empresas. Igualmente capacitado, Melquiades Alex, 28 anos, 4 anos de experiência como videomaker e a paixão por transformar ideias em curtidas! Cursando faculdade de filmmaker buscando sempre inovar! Além de vários cursos profissionalizante na bagagem voltado para a área de videomaker. Voluntário na Startup Juventude Criativa na área de marketing e gestor da área de vídeos do LAB de favelas."
   }
 
 ];

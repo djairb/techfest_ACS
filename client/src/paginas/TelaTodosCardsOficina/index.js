@@ -34,7 +34,8 @@ function TelaTodosCardsOficina() {
                     palestranteNome={item.palestranteNome}
                     local={item.local}
                     data={item.data}
-                    horario={item.horario}               
+                    horario={item.horario}
+                    palestranteImgSrc={item.palestranteImgSrc}                
                 
                 />                      
 
