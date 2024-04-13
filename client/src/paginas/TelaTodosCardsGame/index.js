@@ -42,7 +42,8 @@ function TelaTodosCardsGame() {
                     titulo={item.titulo}
                     local={item.local}
                     data={item.data}
-                    horario={item.horario}                 
+                    horario={item.horario}
+                    tipoGame={item.tipoGame}                 
                 
                 
                 />

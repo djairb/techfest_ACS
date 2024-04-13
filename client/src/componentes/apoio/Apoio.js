@@ -11,7 +11,7 @@ function Apoio(){
 
             <h1 className="titulo">Apoio</h1>
 
-            <div class="container-apoio-imagens">
+            <div className="container-apoio-imagens">
 
                 <a href="https://www.bb.com.br/site/">
                     <img className="imagem-apoio" src="https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212196&authkey=%21AC9rCAnoT8NYuZM"/>

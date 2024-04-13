@@ -24,7 +24,7 @@ function CardSection(props){
     }
 
     return (
-        <div class="card">
+        <div className="card">
 
             <img className="imgSlider" src={props.imgSrc} />
             

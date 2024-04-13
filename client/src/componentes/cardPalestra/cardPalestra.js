@@ -26,7 +26,7 @@ function CardPalestra(props){
     }
 
     return (
-        <div class="cardStand">
+        <div className="cardStand">
 
             <img src={props.imgSrc} />
 

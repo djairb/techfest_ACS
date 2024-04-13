@@ -8,6 +8,12 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from "../../componentes/Navbar/Navbar";
 
 
+import freefire from "../../img/gamer/freefire.png";
+
+import fifa from "../../img/gamer/fifa.png";
+
+
+
 import { gameList } from "../../data/dados";
 import Footer from "../../componentes/Footer/Footer";
 
@@ -49,6 +55,25 @@ function TelaGame() {
         <img src={objetoStand.imgSrc} />
 
         <div className="standTextoPalestra">
+
+          <img
+                      
+              className={
+
+                objetoStand.tipoGame === 'freefire'
+                    ? "imgGameCardFreeFire"
+                    : 'imgGameCardFiFa'
+              }
+                  
+              src={
+
+                objetoStand.tipoGame === 'freefire'
+                    ? freefire
+                    : objetoStand.tipoGame === 'fifa'
+                    ? fifa
+                    : ""
+              }
+          /> 
 
           <h1>{objetoStand.titulo}</h1>
 

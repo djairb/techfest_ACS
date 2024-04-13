@@ -7,7 +7,7 @@ function CardShow(props){
  
 
     return (
-        <div class="cardStand cardShow">
+        <div className="cardStand cardShow">
 
             <img src={props.imgSrc} />
 
