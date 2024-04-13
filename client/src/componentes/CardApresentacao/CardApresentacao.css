@@ -44,6 +44,20 @@
 
 }
 
+
+.cardStand div .imgGameCardFreeFire {
+
+    width: 250px;
+
+}
+
+.cardStand div .imgGameCardFreeFiFa{
+
+    width: 150px;
+
+}
+
+
 .cardStand div {
 
     padding: 15px;
@@ -118,6 +132,14 @@
         width: 200px;
         height: auto;
     }
+
+    .cardStand div .imgGameCardFreeFire{
+
+        width: 180px;
+    
+    }
+
+  
 
 
 

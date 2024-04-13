@@ -451,7 +451,8 @@ export const gameList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 e 25 de Abril",
     horario:"08h00",
-    iframeSrc:"https://docs.google.com/forms/d/e/1FAIpQLScv3EDsh82_XHeR4Sjh5QDCjJ4X4OTtUlHR3uQ0EedhWYakMA/viewform?embedded=true"
+    iframeSrc:"https://docs.google.com/forms/d/e/1FAIpQLScv3EDsh82_XHeR4Sjh5QDCjJ4X4OTtUlHR3uQ0EedhWYakMA/viewform?embedded=true",
+    tipoGame: 'freefire'
   },
   {
     id: 2,
@@ -461,7 +462,8 @@ export const gameList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 e 25 de Abril",
     horario:"08h00",
-    iframeSrc:"https://docs.google.com/forms/d/e/1FAIpQLSczYRrA3IJZbD_qExk0TVR2gVlSF-qoT5j8KHV8dk-SD0SobQ/viewform?embedded=true"
+    iframeSrc:"https://docs.google.com/forms/d/e/1FAIpQLSczYRrA3IJZbD_qExk0TVR2gVlSF-qoT5j8KHV8dk-SD0SobQ/viewform?embedded=true",
+    tipoGame: 'fifa'
   }
 ];
 

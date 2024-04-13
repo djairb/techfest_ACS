@@ -48,7 +48,7 @@ function TelaGame() {
 
         <img src={objetoStand.imgSrc} />
 
-        <div className="standTexto">
+        <div className="standTextoPalestra">
 
           <h1>{objetoStand.titulo}</h1>
 
@@ -58,11 +58,13 @@ function TelaGame() {
 
           <p>Faça sua inscrição abaixo:</p>
 
+          <iframe className="iframeInscricao" src={objetoStand.iframeSrc} frameborder="0">Carregando…</iframe> 
+
                     
 
         </div>
 
-        <iframe className="iframeInscricao" src={objetoStand.iframeSrc} frameborder="0">Carregando…</iframe> 
+        
 
                
 

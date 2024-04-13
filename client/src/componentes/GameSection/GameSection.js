@@ -23,6 +23,7 @@ import CardShow from "../CardShow/CardShow";
 import CardGame from "../CardGame/CardGames";
 
 
+
 register();
 
 function GameSection(props) {
@@ -88,7 +89,8 @@ function GameSection(props) {
                             titulo={item.titulo}
                             local={item.local}
                             data={item.data}
-                            horario={item.horario}                 
+                            horario={item.horario}
+                            tipoGame={item.tipoGame}                 
                         
                         
                         />

@@ -96,12 +96,9 @@ function TelaOficina() {
 
               <p>{objetoStand.palestranteFormacao}</p>
 
-            </div>
-
-          
+            </div>      
 
         
-
           <p>Local: {objetoStand.local}, {objetoStand.data}, {objetoStand.horario}.</p>
 
           <iframe

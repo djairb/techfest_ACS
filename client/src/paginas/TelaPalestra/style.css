@@ -115,7 +115,6 @@
 
     word-wrap: break-word;
     font-size: 25px;
-    margin-bottom: 10px;
 }
 
 
@@ -224,7 +223,7 @@
     }
 
     .standTexto {
-        height: 100vh;
+        height: 80vh;
     }
  
 

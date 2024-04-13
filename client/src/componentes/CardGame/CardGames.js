@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
+import freefire from "../../img/gamer/freefire.png";
+
+import fifa from "../../img/gamer/fifa.png";
+
+
 function CardGame(props){
 
     
@@ -25,7 +30,26 @@ function CardGame(props){
 
             <img src={props.imgSrc} />
 
-            <div>                
+            <div>
+
+                <img
+                    
+                    className={
+
+                        props.tipoGame === 'freefire'
+                            ? "imgGameCardFreeFire"
+                            : 'imgGameCardFiFa'
+                    }
+                       
+                    src={
+
+                        props.tipoGame === 'freefire'
+                            ? freefire
+                            : props.tipoGame === 'fifa'
+                            ? fifa
+                            : ""
+                    }
+                />                
            
                 <h1>{props.titulo}</h1>
 
