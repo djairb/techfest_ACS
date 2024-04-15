@@ -94,7 +94,8 @@ function ApresentacaoSection(props) {
                             artista={item.artista}
                             local={item.local}
                             data={item.data}
-                            horario={item.horario}                 
+                            horario={item.horario}
+                            tipoApresen={item.tipoApresen}                 
                         
                         
                         />

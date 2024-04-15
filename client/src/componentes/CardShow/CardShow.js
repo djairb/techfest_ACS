@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
+import alexsandra from "../../img/culturais/alexsandra.png";
+
+import nzambi from "../../img/culturais/nzambi.png";
+
 function CardShow(props){
  
 
@@ -11,7 +15,26 @@ function CardShow(props){
 
             <img src={props.imgSrc} />
 
-            <div>                
+            <div>
+
+                <img
+
+                    className={
+
+                        props.tipoApresen === ""
+                            ? "imgApresentNone"
+                            : "imgApresentVisu"
+                    }
+                       
+                    src={
+
+                        props.tipoApresen === 'alexsandra'
+                            ? alexsandra
+                            : props.tipoApresen === 'nzambi'
+                            ? nzambi
+                            : ""
+                    }
+                />                
            
                 <h1>{props.nomeArtista}</h1>
 

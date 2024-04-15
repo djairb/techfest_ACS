@@ -272,7 +272,8 @@ export const apresentacaoList = [
     artista: "Prof. Vermelho",
     local: "Praça Maria Aurora - Centro",
     data:"25 de Abril",
-    horario:"15h"
+    horario:"15h",
+    tipoApresen: "uniaoBh"
   },
   {
     id: 2,
@@ -281,7 +282,8 @@ export const apresentacaoList = [
     artista: "Mestre Borges Lucas",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
-    horario:"15h"
+    horario:"15h",
+    tipoApresen: ""
   },
   {
     id: 3,
@@ -290,7 +292,8 @@ export const apresentacaoList = [
     artista: "Mestre Josivaldo Caboclo",
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
-    horario: "17h30"
+    horario: "17h30",
+    tipoApresen: "cirandaCabloco"
   },
   {
     id: 4,
@@ -299,7 +302,8 @@ export const apresentacaoList = [
     artista: "ONG. Geração Futuro",
     local: "Praça Maria Aurora - Centro",
     data: "24 de Abril",
-    horario: "16h30"
+    horario: "16h30",
+    tipoApresen: "touLigado"
   },
   {
     id: 5,
@@ -308,7 +312,8 @@ export const apresentacaoList = [
     artista: "ONG. CEDILI",
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
-    horario: "08h00"
+    horario: "08h00",
+    tipoApresen: ""
   }
   // {
   //   id: 6,
@@ -331,7 +336,8 @@ export const showList = [
     nomeArtista: "Cayke João",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
-    horario:"08h00"
+    horario:"08h00",
+    tipoApresen: ""
   },
   {
     id: 2,
@@ -339,7 +345,8 @@ export const showList = [
     nomeArtista: "Alexsandra Santana",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
-    horario:"10h00"
+    horario:"10h00",
+    tipoApresen: "alexsandra"
   },
   {
     id: 3,
@@ -347,7 +354,8 @@ export const showList = [
     nomeArtista: "DJ Dennys",
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
-    horario:"17h00"
+    horario:"17h00",
+    tipoApresen: ""
   },
   {
     id: 4,
@@ -355,7 +363,8 @@ export const showList = [
     nomeArtista: "Adalberto Santos",
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
-    horario:"10h00"
+    horario:"10h00",
+    tipoApresen: ""
   },
   {
     id: 5,
@@ -363,7 +372,8 @@ export const showList = [
     nomeArtista: "Show da banda N’Zambi – Duas Décadas de Reggae",
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
-    horario:"16h30"
+    horario:"16h30",
+    tipoApresen: "nzambi"
   }
   
 

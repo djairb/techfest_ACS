@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
+import cirandaCabloco from "../../img/culturais/cirandaCabloco.png";
+
+import touLigado from "../../img/culturais/touLigado.png";
+
+import uniaoBh from "../../img/culturais/uniaoBh.png";
+
 function CardApresentacao(props){
 
     
@@ -25,9 +31,32 @@ function CardApresentacao(props){
 
             <img src={props.imgSrc} />
 
-            <div>                
+            <div>
+
+                <img
+
+                    className={
+
+                        props.tipoApresen === ""
+                            ? "imgApresentNone"
+                            : "imgApresentVisu"
+                    }
+                       
+                    src={
+
+                        props.tipoApresen === 'touLigado'
+                            ? touLigado
+                            : props.tipoApresen === 'cirandaCabloco'
+                            ? cirandaCabloco
+                            : props.tipoApresen === 'uniaoBh'
+                            ? uniaoBh
+                            : ""
+                    }
+                />                
            
                 <h1>{props.titulo}</h1>
+
+                
 
                 <h2>{props.artista}</h2>
 
