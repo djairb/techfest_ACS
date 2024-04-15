@@ -99,9 +99,22 @@
 
 }
 
-.mainTelaStand .standTextoPalestra img {
+.mainTelaStand .standTextoPalestra .imgGameCardFreeFire {
+
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    border-bottom: none;
+    
+
+
+
+}
+
+.mainTelaStand .standTextoPalestra .imgGameCardFiFa {
 
     width: auto;
+    
     margin-top: 20px;
     border-bottom: none;
     
@@ -225,9 +238,12 @@
 @media only screen and (max-width: 1024px) {
 
 
-    .mainTelaStand .standTextoPalestra img {
+    .mainTelaStand .standTextoPalestra .imgGameCardFreeFire {
 
-        width: 90%
+        width: 90%;
+        height: 90%;
+        margin-bottom: 0px;
+
         
     
     
@@ -236,7 +252,8 @@
 
     .mainTelaStand .standTextoPalestra .imgGameCardFiFa {
 
-        width: 60%
+        width: 60%;
+        margin-bottom: 0px;
         
     
     
