@@ -35,7 +35,8 @@ function TelaTodosCardsShow() {
                     local={item.local}
                     data={item.data}
                     horario={item.horario}
-                    tipoApresen={item.tipoApresen}                  
+                    tipoApresen={item.tipoApresen}
+                    descricao={item.descricao}                  
                 
                 
                 />

@@ -88,7 +88,8 @@ function ShowSection(props) {
                             local={item.local}
                             data={item.data}
                             horario={item.horario}
-                            tipoApresen={item.tipoApresen}                 
+                            tipoApresen={item.tipoApresen}
+                            descricao={item.descricao}                 
                         
                         
                         />
@@ -97,7 +98,15 @@ function ShowSection(props) {
                 ))}
             </Swiper>
 
-            <button onClick={abrirPaginaTodos} className="botaoVerTodos">Ver Todos</button>
+            <button
+            
+                onClick={abrirPaginaTodos}
+                
+                className="botaoVerTodos">
+                    
+                    Ver Todos
+                    
+            </button>
 
             <div className="degrade"></div>
         </section>      

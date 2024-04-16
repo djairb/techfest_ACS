@@ -286,7 +286,7 @@ export const apresentacaoList = [
     data:"24 de Abril",
     horario:"15h",
     tipoApresen: "cavaloMarinho",
-    descricao: "Comecei aos 09 anos brincar de Cavalo Marinho no Terreiro do Sítio do meu avô, em Lagoa de Itaenga, hoje com 59 anos continuo brincando com o Boi Teimoso, mesmo não sendo valorizado como deveria. Essa brincadeira faz parte da minha família, BORGES de Lagoa de Itaenga e de todos que brincam com a gente. Já trabalhei em canavial desde menino, plantando em sítio, criando bodes, me casei, tive filhos e netos, mas nunca deixei de ser um brincante, de ser um fogazão. O que meu pai e avó me passaram hoje meus netos sabem fazer, são caboclos, são mineiros e tocador de coco. E na comunidade rural de Lagoa de Itaenga todos se envolvem nas brincadeiras”, dizia Mestre Borges. A brincadeira reúne encenações, coreografias, improvisos e todas, loas, além de uma série de danças tradicionais, tais como o coco, o mergulhão e a dança de São Gonçalo.",
+    descricao: "'Comecei aos 09 anos brincar de Cavalo Marinho no Terreiro do Sítio do meu avô, em Lagoa de Itaenga, hoje com 59 anos continuo brincando com o Boi Teimoso, mesmo não sendo valorizado como deveria. Essa brincadeira faz parte da minha família, BORGES de Lagoa de Itaenga e de todos que brincam com a gente. Já trabalhei em canavial desde menino, plantando em sítio, criando bodes, me casei, tive filhos e netos, mas nunca deixei de ser um brincante, de ser um fogazão. O que meu pai e avó me passaram hoje meus netos sabem fazer, são caboclos, são mineiros e tocador de coco. E na comunidade rural de Lagoa de Itaenga todos se envolvem nas brincadeiras”, dizia Mestre Borges. A brincadeira reúne encenações, coreografias, improvisos e todas, loas, além de uma série de danças tradicionais, tais como o coco, o mergulhão e a dança de São Gonçalo.' - Mestre Borges",
     urlLink: "https://www.youtube.com/watch?app=desktop&v=qPbS8JAFDzE"
   },
   {
@@ -347,7 +347,9 @@ export const showList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"08h00",
-    tipoApresen: "caique"
+    tipoApresen: "caique",
+    descricao: "",
+    urlLink: ""
   },
   {
     id: 2,
@@ -356,7 +358,9 @@ export const showList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"10h00",
-    tipoApresen: "alexsandra"
+    tipoApresen: "alexsandra",
+    descricao: "",
+    urlLink: ""
   },
   {
     id: 3,
@@ -365,7 +369,9 @@ export const showList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"17h00",
-    tipoApresen: ""
+    tipoApresen: "",
+    descricao: "",
+    urlLink: ""
   },
   {
     id: 4,
@@ -374,16 +380,20 @@ export const showList = [
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
     horario:"10h00",
-    tipoApresen: ""
+    tipoApresen: "",
+    descricao: "",
+    urlLink: ""
   },
   {
     id: 5,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212236&authkey=%21AHBYgDtF1dnd8lQ",
-    nomeArtista: "Show da banda N’Zambi – Duas Décadas de Reggae",
+    nomeArtista: "Banda N’Zambi – Duas Décadas de Reggae",
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
     horario:"16h30",
-    tipoApresen: "nzambi"
+    tipoApresen: "nzambi",
+    descricao: "A banda surgiu em 2003, no Recife, às margens do Rio Capibaribe, especificamente no bairro da Várzea, ambiente fértil para a cultura popular e resistência social. A N’ZAMBI - Duas décadas de Reggae é uma das atuais bandas de reggae de Pernambuco e do Brasil, citadas por vários sites e revistas eletrônicas como a Revista Reggae Brasil, Revista Sebrae, o portal Surforeggae, SomJah, entre outros. O Grupo possui 3 álbuns já gravados: Kaya, Mas Se Oriente! (2008), Pra Verdade Estremecer (2014) e Palavras de Amor (2021).  Em 2023 a banda comemorou 20 anos de carreira, continuando com a proposta de levar aos fãs de todo o Brasil e admiradores da música reggae, essa miscigenação e efervescência da música produzida em Pernambuco.",
+    urlLink: "https://www.youtube.com/channel/UCFMM2RRtQiW_JaYxoPkpdwQ"
   }
   
 

@@ -1,0 +1,330 @@
+.mainTelaOficina {
+
+
+    width: 100%;
+    min-width: 320px;
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+
+    align-items: center;
+    color: white;
+
+    border: 1px solid var(--verdeClaro);
+    border-radius: 10px;
+
+
+
+}
+
+.palestranteContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+
+
+}
+
+
+
+.palestranteImagem{
+
+    width: 150px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.palestranteDados{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0px;
+
+
+}
+
+.palestranteDados h2{
+    color: var(--verdeClaro);
+    font-size: 40px;
+}
+
+.palestranteDados h3{
+    color: var(--verdeClaro);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.mainTelaPalestraTodos {
+    max-width: 100%;
+}
+
+
+.imagemMain{
+    max-width: 1100px;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: fill;
+
+    border-bottom: 1px solid var(--verdeClaro);
+
+
+
+
+
+}
+
+.standTextoPalestra {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+    text-align: justify;
+
+    gap: 40px;
+
+
+
+}
+
+.mainTelaStand .standTextoPalestra .imgGameCardFreeFire {
+
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    border-bottom: none;
+    
+
+
+
+}
+
+.mainTelaStand .standTextoPalestra .imgGameCardFiFa {
+
+    width: auto;
+    
+    margin-top: 20px;
+    border-bottom: none;
+    
+
+
+
+}
+
+.standTextoPalestra h1 {
+    margin-top: 10px;
+    color: var(--verdeClaro);
+    font-size: 50px;
+    text-align: center;
+}
+
+.standTextoPalestra p {
+    width: 95%;
+    text-align: justify;
+    text-align-last: center;
+
+    word-wrap: break-word;
+    font-size: 25px;
+}
+
+
+.containerEvento {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 1100px;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    border: 1px solid var(--verdeClaro);
+    border-radius: 0px;
+    min-height: 100vh;
+
+
+}
+
+.containerEvento img {
+
+    max-width: 1100px;
+    width: 1099px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 0px 20px 0px 20px;
+    object-position: top;
+
+
+
+}
+
+.containerEvento h1 {
+    overflow-wrap: break-word;
+    color: var(--verdeClaro);
+    text-align: center;
+    word-break: break-all;
+    margin-top: 20px;
+    font-size: 35px;
+
+
+
+
+}
+
+
+.pExpo {
+
+    color: rgb(255, 255, 255);
+
+
+
+    width: 96%;
+    text-align: center;
+    line-height: 40px;
+
+
+
+    font-size: 20px;
+
+    margin: 15px 0;
+
+
+
+}
+
+
+.botaoInscrever {
+
+    margin: 30px 0 30px 0;
+
+    width: 130px;
+    text-align: center;
+    background-color: #467700;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.botaoInscrever:hover {
+
+    background-color: white;
+    color: #467700;
+    font-weight: bold;
+
+    border: 1px solid #467700;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    .mainTelaStand .standTextoPalestra .imgGameCardFreeFire {
+
+        width: 90%;
+        height: 90%;
+        margin-bottom: 0px;
+
+        
+    
+    
+    
+    }
+
+    .mainTelaStand .standTextoPalestra .imgGameCardFiFa {
+
+        width: 60%;
+        margin-bottom: 0px;
+        
+    
+    
+    
+    }
+
+
+
+    
+
+
+
+    .mainTelaPalestra img, .mainTelaOficina img {
+
+        height: auto;
+    }
+
+    .standTexto {
+        height: 80vh;
+    }
+
+    .standTextoPalestra{
+        width: 97%;
+    }
+
+    
+
+
+    .containerEvento {
+
+        justify-content: flex-start;
+
+
+
+    }
+
+    .containerEvento img {
+
+
+        width: 95vw;
+        object-fit: contain;
+        height: 250px;
+
+    }
+
+    .containerEvento {
+
+        width: 100%;
+
+
+
+    }
+
+    .containerEvento h1 {
+
+        width: 95%;
+
+
+    }
+
+    .palestranteContainer{
+
+        flex-direction: column;
+    }
+
+
+}

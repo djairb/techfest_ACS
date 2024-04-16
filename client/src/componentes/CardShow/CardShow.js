@@ -10,10 +10,28 @@ import nzambi from "../../img/culturais/nzambi.png";
 import caique from "../../img/culturais/caique.png";
 
 function CardShow(props){
+
+
+    
+
+
+    const navigate = useNavigate();
+
+    const eventoDados = {
+
+        id: props.id
+    //sei onde buscar em tela evento o evento em dados.js pra carregar na pagina
+    }   
+
+
+    const navegarPagina = () =>{
+
+        navigate('/tela-show', { state: eventoDados });
+    }
  
 
     return (
-        <div className="cardStand cardShow">
+        <div className="cardStand">
 
             <img src={props.imgSrc} />
 
@@ -47,7 +65,20 @@ function CardShow(props){
             </div>           
             
 
-            {/* <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>         */}
+            <button
+            
+                onClick={navegarPagina}
+
+                className={
+
+                    props.descricao === ''
+                        ? "ocultarBotao"
+                        : "botaoEvento"
+                }>
+
+                    Ver detalhes
+                    
+            </button>
             
             
         </div>            
