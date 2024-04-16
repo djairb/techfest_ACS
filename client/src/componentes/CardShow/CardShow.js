@@ -7,6 +7,8 @@ import alexsandra from "../../img/culturais/alexsandra.png";
 
 import nzambi from "../../img/culturais/nzambi.png";
 
+import caique from "../../img/culturais/caique.png";
+
 function CardShow(props){
  
 
@@ -32,6 +34,8 @@ function CardShow(props){
                             ? alexsandra
                             : props.tipoApresen === 'nzambi'
                             ? nzambi
+                            : props.tipoApresen === 'caique'
+                            ? caique
                             : ""
                     }
                 />                

@@ -33,10 +33,6 @@ function TelaOficina() {
   let palestrante = "Palestrante:";
   let palestrantes = "Palestrantes:";
 
-  
-
-
-
   let objetoStand;
 
   oficinaList.forEach((objeto) => {
@@ -84,9 +80,6 @@ function TelaOficina() {
      
      
               />
-
-
-
 
               </div>
 

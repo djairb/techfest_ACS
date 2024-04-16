@@ -9,6 +9,10 @@ import touLigado from "../../img/culturais/touLigado.png";
 
 import uniaoBh from "../../img/culturais/uniaoBh.png";
 
+import cedili from "../../img/culturais/cedili.png";
+
+import cavaloMarinho from "../../img/culturais/cavaloMarinho.png";
+
 function CardApresentacao(props){
 
     
@@ -23,7 +27,7 @@ function CardApresentacao(props){
 
     const navegarPagina = () =>{
 
-        navigate('/tela-stand', { state: eventoDados });
+        navigate('/tela-apresentacao', { state: eventoDados });
     }
 
     return (
@@ -50,6 +54,10 @@ function CardApresentacao(props){
                             ? cirandaCabloco
                             : props.tipoApresen === 'uniaoBh'
                             ? uniaoBh
+                            : props.tipoApresen === 'cavaloMarinho'
+                            ? cavaloMarinho
+                            : props.tipoApresen === 'cedili'
+                            ? cedili
                             : ""
                     }
                 />                
@@ -66,7 +74,7 @@ function CardApresentacao(props){
             
             
 
-            {/* <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>         */}
+            <button onClick={navegarPagina} className="botaoEvento">Ver detalhes</button>
             
             
         </div>

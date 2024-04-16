@@ -62,7 +62,7 @@
     color: white;
 }
 
-.botaoEvento {
+.botaoEvento, .standTextoPalestra .apresentacaoDetalhes {
 
     margin: 10px 0 30px 0;
 
@@ -77,7 +77,16 @@
 
 }
 
-.botaoEvento:hover {
+
+.standTextoPalestra .palestranteDados h2{
+
+    
+
+
+}
+
+
+.botaoEvento:hover, .standTextoPalestra .apresentacaoDetalhes:hover {
 
     background-color: white;
     color: #467700;

@@ -273,7 +273,9 @@ export const apresentacaoList = [
     local: "Praça Maria Aurora - Centro",
     data:"25 de Abril",
     horario:"15h",
-    tipoApresen: "uniaoBh"
+    tipoApresen: "uniaoBh",
+    descricao: "O Centro Cultural Esportivo e Educacional União da Bahia Capoeira que na época se chamava (grupo União da Bahia Capoeira) foi fundado no final de 1996, na cidade de São Paulo no bairro do Itaim Paulista zona leste, tendo como seus fundadores Mestre João (Presidente) e seus dois formados mais velho Mestre Sombra e Mestre Aventura (in memória), juntos a vários professores formados por sua academia de capoeira da Bahia. Atualmente o grupo de capoeira tem trabalhos na grande São Paulo zona leste, norte e sul.  E em cidades como, Mogi das Cruzes, Biritiba mirim e Guarulhos. E em outros estados, em Pernambuco nas cidades de Lagoa de Itaenga, Vicência, Tracunhaém e Igarassu) e Rio Grande do Sul. E em países como Uruguai, Argentina e Índia.",
+    urlLink: "https://uniaodabahiacapoeira.com.br/portal/"
   },
   {
     id: 2,
@@ -283,7 +285,9 @@ export const apresentacaoList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"15h",
-    tipoApresen: ""
+    tipoApresen: "cavaloMarinho",
+    descricao: "Comecei aos 09 anos brincar de Cavalo Marinho no Terreiro do Sítio do meu avô, em Lagoa de Itaenga, hoje com 59 anos continuo brincando com o Boi Teimoso, mesmo não sendo valorizado como deveria. Essa brincadeira faz parte da minha família, BORGES de Lagoa de Itaenga e de todos que brincam com a gente. Já trabalhei em canavial desde menino, plantando em sítio, criando bodes, me casei, tive filhos e netos, mas nunca deixei de ser um brincante, de ser um fogazão. O que meu pai e avó me passaram hoje meus netos sabem fazer, são caboclos, são mineiros e tocador de coco. E na comunidade rural de Lagoa de Itaenga todos se envolvem nas brincadeiras”, dizia Mestre Borges. A brincadeira reúne encenações, coreografias, improvisos e todas, loas, além de uma série de danças tradicionais, tais como o coco, o mergulhão e a dança de São Gonçalo.",
+    urlLink: "https://www.youtube.com/watch?app=desktop&v=qPbS8JAFDzE"
   },
   {
     id: 3,
@@ -293,17 +297,21 @@ export const apresentacaoList = [
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
     horario: "17h30",
-    tipoApresen: "cirandaCabloco"
+    tipoApresen: "cirandaCabloco",
+    descricao: "A Ciranda Caboclo é um grupo de cultura popular da zona da mata de Pernambuco, uma iniciativa do Poeta Josivaldo Caboclo, filho do Poeta Bio Caboclo, referência na arte do coco de roda na zona da mata. O grupo surgiu em abril 2017 período em que o Mestre Josivaldo Caboclo gravou seu primeiro CD ciranda, o álbum autoral recebeu o título de “Ciranda Caboclo – Um novo jeito de fazer ciranda”.  A ciranda Caboclo traz uma mistura dos estilos da ciranda carnavalesca com a ciranda da mata norte, moldada pela regra poética dos cantadores de viola e com influência do Poeta Bio Caboclo, violeiro, mestre de maracatu e de coco de roda. Nas letras autoral, o Mestre Cirandeiro faz uma abordagem sobre o fortalecimento das relações entre as pessoas e dos valores éticos, além se utilizar de temas voltadas ao romantismo.  A Família Caboclo há mais de 30 anos vem promovendo e difundindo a arte do coco-de-roda, maracatu, viola e ciranda na zona da mata de Pernambuco para o Brasil e o mundo.",
+    urlLink: "https://www.youtube.com/@GrupoCulturalCaboclo"
   },
   {
     id: 4,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212200&authkey=%21AENFcj_KNuT7ABw",
-    titulo: "Grupo Teatral do Projeto Tou Ligado",
+    titulo: "Grupo Teatral do Projeto Tô Ligado",
     artista: "ONG. Geração Futuro",
     local: "Praça Maria Aurora - Centro",
     data: "24 de Abril",
     horario: "16h30",
-    tipoApresen: "touLigado"
+    tipoApresen: "touLigado",
+    descricao: "O grupo Tô Ligades conta com 09 (nove) atores e atrizes com idade entre 13 e 18 anos todos residentes na cidade de Lagoa de Itaenga zona da mata norte de Pernambuco a 65,0 km de Recife região metropolitana. O elenco encena o espetáculo: “Experimente Afetos”, uma ação do Projeto Tou Ligado: saúde, educação e sexualidade, executado pela ONG Geração Futuro apoiado pelo FMDCA – Fundo Municipal dos Direitos da Criança e Adolescentes de Lagoa de Itaenga.  O espetáculo “Experimente Afetos” é um drama que retrata a história de uma adolescente que aos 13 anos engravida, e desiste de frequentar a escola pelo machismo sofrido. Narrando a história do espetáculo, ela espera que a história de sua filha seja diferente. 16 anos depois, na escola a filha vivencia junto com os colegas questões/violência como bullying, discriminação, assédio, racismo e LGBTfobia. ",
+    urlLink: "https://gerafuturo.org.br/"
   },
   {
     id: 5,
@@ -313,7 +321,9 @@ export const apresentacaoList = [
     local: "Praça Maria Aurora - Centro",
     data: "25 de Abril",
     horario: "08h00",
-    tipoApresen: ""
+    tipoApresen: "cedili",
+    descricao: "A peça de teatro “Quando a velhice chegar” tem como autora Cyrlene Rita. Organizado pela ONG Centro de Desenvolvimento Integral (CEDILI), apoiado pelo FMDCA – Fundo Municipal dos Direitos da Criança e Adolescentes de Lagoa de Itaenga.  A narrativa apresentada pelo grupo, encena um lugar distante onde um conjunto de amigas idosas que resolveram morar juntas depois da velhice... E para a surpresa de todas receberam uma visita inesperada a velhice, cobrando que essas tenham atitudes consideradas pela sociedade como caracterizados por idosos. É uma peça alegre e divertida que mostra que em qualquer idade podemos fazer tudo ou nada.",
+    urlLink: "https://cedili.com.br/"
   }
   // {
   //   id: 6,
@@ -337,7 +347,7 @@ export const showList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"08h00",
-    tipoApresen: ""
+    tipoApresen: "caique"
   },
   {
     id: 2,
