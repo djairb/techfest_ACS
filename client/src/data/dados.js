@@ -380,7 +380,7 @@ export const showList = [
     local: "Praça Maria Aurora – Centro",
     data:"25 de Abril",
     horario:"10h00",
-    tipoApresen: "",
+    tipoApresen: "adalberto",
     descricao: "",
     urlLink: ""
   },
@@ -476,7 +476,7 @@ export const gameList = [
   {
     id: 1,
     imgSrc: "https://onedrive.live.com/embed?resid=3282EDF418D3DB36%212234&authkey=%21AHVi2J6o35x4B44",
-    titulo: "COPA FREEFIRE - CONEXÃO SOCIAL",
+    titulo: "COPA FREEFIRE - CONEXÃO TECHFEST",
     descricao:"Prepare-se para a adrenalina tomar conta da Feira de Tecnologia! Venha participar da COPA FREEFIRE e viva a emoção de um campeonato profissional. Mostre suas habilidades no jogo e dispute prêmios incríveis. Seja você um jogador experiente ou iniciante, a COPA FREEFIRE é para você. Inscreva-se agora e faça parte da história!",
     local: "Praça Maria Aurora - Centro",
     data:"24 e 25 de Abril",
