@@ -369,7 +369,7 @@ export const showList = [
     local: "Praça Maria Aurora - Centro",
     data:"24 de Abril",
     horario:"17h00",
-    tipoApresen: "",
+    tipoApresen: "djdennys",
     descricao: "",
     urlLink: ""
   },

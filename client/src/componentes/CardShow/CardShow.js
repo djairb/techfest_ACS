@@ -11,6 +11,11 @@ import caique from "../../img/culturais/caique.png";
 
 import adalberto from "../../img/culturais/adalberto.png";
 
+import djdennys from "../../img/culturais/djdennys.png";
+
+
+
+
 
 
 function CardShow(props){
@@ -60,6 +65,8 @@ function CardShow(props){
                             ? caique
                             : props.tipoApresen === 'adalberto'
                             ? adalberto
+                            : props.tipoApresen === 'djdennys'
+                            ? djdennys
                             : ""
                     }
                 />                
